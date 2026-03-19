@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2028 수능 예시문항 독서 11~27번 완전 해설 — 비문학 LAB</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;600;700&amp;family=Noto+Sans+KR:wght@300;400;500;700&amp;family=DM+Mono:ital@0;1&amp;display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0f0e0c;--bg2:#181714;--surface:#252320;--surface2:#2e2b27;--border:#3a3630;--border2:#4a4540;--text:#e8e2d9;--text2:#a89f94;--text3:#6e6760;--accent:#c9a96e;--accent2:#e8c98a;--accent-dim:rgba(201,169,110,0.12);--accent-glow:rgba(201,169,110,0.06);--comment-bg:#1a2420;--comment-border:#2d4a3e;--comment-text:#8ecfb8;--comment-head:#4db896;--correct:#4db896;--correct-bg:#0f2420;--correct-border:#2d4a3e;--wrong:#c97070;--wrong-bg:#241414;--wrong-border:#4a2d2d;--neutral-bg:#1e1c18;--neutral-border:#3a3630;--radius:6px;--mono:'DM Mono',monospace;}
+*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
+body{background:var(--bg);color:var(--text);font-family:'Noto Serif KR',serif;font-size:16px;line-height:1.95;min-height:100vh;}
+body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;opacity:0.6;}
+.page{max-width:800px;margin:0 auto;padding:0 32px 120px;position:relative;z-index:1;}
+.nav-tabs{position:sticky;top:0;background:rgba(15,14,12,0.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);display:flex;z-index:100;padding:0 32px;margin:0 -32px;}
+.nav-tab{font-family:var(--mono);font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--text3);padding:16px 20px;cursor:pointer;border-bottom:2px solid transparent;transition:all 0.2s;user-select:none;}
+.nav-tab:hover{color:var(--text2);}.nav-tab.active{color:var(--accent);border-bottom-color:var(--accent);}
+.lab-badge{font-family:var(--mono);font-size:11px;letter-spacing:0.1em;color:var(--accent);padding:16px 20px;margin-left:auto;opacity:0.7;}
+.tab-panel{display:none;padding-top:48px;}.tab-panel.active{display:block;}
+.book-header{padding:56px 0 48px;border-bottom:1px solid var(--border);margin-bottom:48px;}
+.book-label{font-family:var(--mono);font-size:11px;letter-spacing:0.18em;color:var(--accent);text-transform:uppercase;margin-bottom:16px;}
+.book-title{font-size:32px;font-weight:700;color:var(--text);line-height:1.2;letter-spacing:-0.02em;margin-bottom:10px;}
+.book-title span{color:var(--accent);}
+.book-sub{font-family:'Noto Sans KR',sans-serif;font-size:14px;color:var(--text3);}
+.book-meta{display:flex;flex-wrap:wrap;gap:16px;margin-top:28px;padding-top:20px;border-top:1px solid var(--border);}
+.meta-chip{font-family:var(--mono);font-size:11px;color:var(--text3);letter-spacing:0.08em;display:flex;align-items:center;gap:6px;}
+.meta-chip::before{content:'';width:4px;height:4px;border-radius:50%;background:var(--accent);opacity:0.6;display:inline-block;}
+.analysis-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:24px;margin-bottom:40px;}
+.analysis-card-title{font-family:var(--mono);font-size:10px;letter-spacing:0.18em;color:var(--accent);text-transform:uppercase;margin-bottom:16px;}
+.analysis-row{display:flex;gap:12px;margin-bottom:10px;font-family:'Noto Sans KR',sans-serif;font-size:13.5px;align-items:baseline;}
+.analysis-label{color:var(--text3);flex-shrink:0;width:80px;font-size:12px;}
+.analysis-value{color:var(--text2);line-height:1.6;}
+.tag-pill{display:inline-block;background:var(--accent-dim);color:var(--accent2);border:1px solid rgba(201,169,110,0.2);border-radius:3px;padding:2px 8px;font-size:11.5px;font-family:var(--mono);margin-right:6px;}
+.guide-banner{background:var(--accent-glow);border:1px solid rgba(201,169,110,0.15);border-radius:var(--radius);padding:14px 18px;margin-bottom:32px;font-family:'Noto Sans KR',sans-serif;font-size:13px;color:var(--text2);display:flex;align-items:center;gap:10px;}
+.controls{display:flex;gap:10px;margin-bottom:28px;flex-wrap:wrap;}
+.ctrl-btn{font-family:var(--mono);font-size:11px;letter-spacing:0.1em;color:var(--text3);background:none;border:1px solid var(--border);border-radius:4px;padding:7px 14px;cursor:pointer;transition:all 0.15s;text-transform:uppercase;}
+.ctrl-btn:hover{color:var(--accent);border-color:var(--accent);background:var(--accent-dim);}
+.ctrl-btn.edit-active{color:var(--accent2);border-color:var(--accent2);background:rgba(232,201,138,0.08);}
+.section-divider{display:flex;align-items:center;gap:12px;margin:40px 0 24px;}
+.section-label{font-family:var(--mono);font-size:11px;letter-spacing:0.2em;color:var(--accent);text-transform:uppercase;white-space:nowrap;background:var(--bg);padding-right:12px;}
+.section-line{height:1px;flex:1;background:var(--border);}
+.para-divider{display:flex;align-items:center;gap:12px;margin:28px 0 16px;}
+.para-label{font-family:var(--mono);font-size:10px;letter-spacing:0.14em;color:var(--text3);text-transform:uppercase;white-space:nowrap;}
+.para-line{height:1px;flex:1;background:var(--border);}
+.sentence-block{margin-bottom:3px;border-radius:var(--radius);overflow:hidden;}
+.sentence-trigger{display:flex;align-items:flex-start;gap:14px;padding:13px 16px;cursor:pointer;border-radius:var(--radius);border:1px solid transparent;transition:all 0.18s ease;}
+.sentence-trigger:hover{background:var(--surface);border-color:var(--border);}
+.sentence-block.open .sentence-trigger{background:var(--surface);border-color:var(--border2);border-bottom-left-radius:0;border-bottom-right-radius:0;border-bottom-color:transparent;}
+.sentence-num{font-family:var(--mono);font-size:10px;color:var(--text3);padding-top:4px;flex-shrink:0;width:24px;text-align:right;transition:color 0.18s;}
+.sentence-block.open .sentence-num,.sentence-trigger:hover .sentence-num{color:var(--accent);}
+.sentence-text{font-size:15.5px;color:var(--text);line-height:1.85;flex:1;}
+.sentence-text .keyword{color:var(--accent2);font-weight:600;}
+.sentence-text .mark{border-bottom:1px solid var(--accent);padding-bottom:1px;}
+.sentence-arrow{font-size:11px;color:var(--text3);padding-top:5px;flex-shrink:0;transition:all 0.2s ease;}
+.sentence-block.open .sentence-arrow{color:var(--accent);transform:rotate(180deg);}
+.comment-panel{display:none;background:var(--comment-bg);border:1px solid var(--comment-border);border-top:none;border-bottom-left-radius:var(--radius);border-bottom-right-radius:var(--radius);padding:18px 18px 18px 54px;animation:slideDown 0.2s ease;}
+.sentence-block.open .comment-panel{display:block;}
+@keyframes slideDown{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
+.comment-label{font-family:var(--mono);font-size:10px;letter-spacing:0.15em;color:var(--comment-head);text-transform:uppercase;margin-bottom:10px;display:flex;align-items:center;gap:8px;}
+.comment-label::after{content:'';height:1px;flex:1;background:var(--comment-border);opacity:0.5;}
+.comment-body{font-family:'Noto Sans KR',sans-serif;font-size:14px;line-height:1.85;color:var(--comment-text);outline:none;min-height:24px;}
+.comment-body[contenteditable="true"]{border-bottom:1px dashed var(--comment-border);padding-bottom:4px;}
+.comment-body strong{color:#6ee8c0;font-weight:500;}.comment-body em{color:var(--accent2);font-style:normal;font-weight:500;}
+.summary-box{margin-top:56px;border:1px solid var(--border2);border-radius:var(--radius);overflow:hidden;}
+.summary-header{background:var(--surface2);padding:14px 22px;border-bottom:1px solid var(--border2);}
+.summary-header-text{font-family:'Noto Sans KR',sans-serif;font-size:13px;font-weight:500;color:var(--accent);}
+.summary-body{padding:24px 22px;font-family:'Noto Sans KR',sans-serif;font-size:14.5px;color:var(--text2);line-height:1.95;min-height:140px;background:var(--bg2);outline:none;}
+.summary-placeholder{color:var(--text3);font-style:italic;font-size:13px;}
+.problem-header{margin:48px 0 20px;padding-bottom:16px;border-bottom:1px solid var(--border);}
+.problem-header-top{display:flex;align-items:baseline;gap:16px;margin-bottom:8px;}
+.problem-num-badge{font-family:var(--mono);font-size:11px;letter-spacing:0.1em;color:var(--accent);background:var(--accent-dim);border:1px solid rgba(201,169,110,0.25);padding:4px 12px;border-radius:3px;flex-shrink:0;}
+.problem-title{font-size:16px;font-weight:600;color:var(--text);line-height:1.6;flex:1;}
+.problem-type{font-family:var(--mono);font-size:11px;color:var(--text3);flex-shrink:0;}
+.difficulty-row{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap;}
+.diff-badge{font-family:var(--mono);font-size:11px;padding:4px 10px;border-radius:3px;}
+.diff-hard{background:rgba(201,112,112,0.12);color:var(--wrong);border:1px solid rgba(201,112,112,0.2);}
+.diff-med{background:rgba(201,169,110,0.1);color:var(--accent2);border:1px solid rgba(201,169,110,0.2);}
+.diff-easy{background:rgba(77,184,150,0.08);color:var(--correct);border:1px solid rgba(77,184,150,0.2);}
+.problem-point{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:12px 16px;margin-bottom:16px;font-family:'Noto Sans KR',sans-serif;font-size:13.5px;color:var(--text2);line-height:1.7;}
+.problem-point-label{font-family:var(--mono);font-size:10px;letter-spacing:0.14em;color:var(--accent);text-transform:uppercase;margin-bottom:6px;}
+.bogi-box{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:18px 20px;margin:16px 0;font-size:14.5px;line-height:1.85;font-family:'Noto Sans KR',sans-serif;}
+.bogi-label{font-family:var(--mono);font-size:10px;letter-spacing:0.16em;color:var(--accent);text-transform:uppercase;margin-bottom:12px;}
+.choice-block{margin-bottom:6px;border-radius:var(--radius);overflow:hidden;}
+.choice-trigger{display:flex;align-items:flex-start;gap:14px;padding:13px 16px;cursor:pointer;border:1px solid var(--border);border-radius:var(--radius);transition:all 0.18s ease;background:var(--bg2);}
+.choice-trigger:hover{background:var(--surface);border-color:var(--border2);}
+.choice-block.open .choice-trigger{border-bottom-left-radius:0;border-bottom-right-radius:0;border-bottom-color:transparent;}
+.choice-block.correct.revealed .choice-trigger{background:var(--correct-bg);border-color:var(--correct-border);}
+.choice-block.correct.revealed .choice-num{color:var(--correct);}
+.choice-block.wrong.revealed .choice-trigger{background:var(--wrong-bg);border-color:var(--wrong-border);}
+.choice-block.wrong.revealed .choice-num{color:var(--wrong);}
+.choice-num{font-family:var(--mono);font-size:12px;font-weight:600;color:var(--text3);flex-shrink:0;padding-top:2px;width:20px;text-align:center;}
+.choice-text{font-family:'Noto Sans KR',sans-serif;font-size:14.5px;color:var(--text);line-height:1.75;flex:1;}
+.choice-arrow{font-size:11px;color:var(--text3);padding-top:4px;flex-shrink:0;transition:all 0.2s ease;}
+.choice-block.open .choice-arrow{transform:rotate(180deg);}
+.choice-panel{display:none;border:1px solid var(--neutral-border);border-top:none;border-bottom-left-radius:var(--radius);border-bottom-right-radius:var(--radius);padding:16px 16px 16px 50px;animation:slideDown 0.2s ease;}
+.choice-block.correct.revealed .choice-panel{background:var(--correct-bg);border-color:var(--correct-border);}
+.choice-block.wrong.revealed .choice-panel{background:var(--wrong-bg);border-color:var(--wrong-border);}
+.choice-block:not(.revealed) .choice-panel{background:var(--neutral-bg);border-color:var(--neutral-border);}
+.choice-block.open .choice-panel{display:block;}
+.choice-verdict{font-family:var(--mono);font-size:10px;letter-spacing:0.16em;text-transform:uppercase;margin-bottom:10px;display:flex;align-items:center;gap:8px;color:var(--text3);}
+.choice-verdict::after{content:'';height:1px;flex:1;opacity:0.3;background:var(--text3);}
+.correct.revealed .choice-verdict{color:var(--correct);}.correct.revealed .choice-verdict::after{background:var(--correct);}
+.wrong.revealed .choice-verdict{color:var(--wrong);}.wrong.revealed .choice-verdict::after{background:var(--wrong);}
+.choice-explanation{font-family:'Noto Sans KR',sans-serif;font-size:14px;line-height:1.85;outline:none;min-height:20px;color:var(--text2);}
+.correct.revealed .choice-explanation{color:var(--correct);}.wrong.revealed .choice-explanation{color:#d4948a;}
+.choice-explanation[contenteditable="true"]{border-bottom:1px dashed rgba(255,255,255,0.1);padding-bottom:4px;}
+.answer-banner{display:none;align-items:center;gap:12px;margin:20px 0 8px;padding:12px 16px;background:rgba(77,184,150,0.08);border:1px solid rgba(77,184,150,0.2);border-radius:var(--radius);font-family:'Noto Sans KR',sans-serif;font-size:13px;animation:slideDown 0.3s ease;}
+.answer-banner.revealed{display:flex;}
+.answer-label{font-family:var(--mono);font-size:10px;letter-spacing:0.12em;color:var(--correct);text-transform:uppercase;}
+.answer-num{font-size:18px;font-weight:700;color:var(--correct);font-family:var(--mono);}
+.answer-desc{color:var(--text2);font-size:13px;flex:1;}
+.problem-divider{height:1px;background:var(--border);margin:48px 0;}
+.interview-box{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:20px 24px;margin:16px 0;font-family:'Noto Sans KR',sans-serif;font-size:14px;line-height:1.9;color:var(--text2);}
+.interview-box-label{font-family:var(--mono);font-size:10px;letter-spacing:0.16em;color:var(--accent);text-transform:uppercase;margin-bottom:12px;}
+.save-toast{position:fixed;bottom:32px;right:32px;background:var(--surface2);border:1px solid var(--comment-border);color:var(--comment-text);font-family:var(--mono);font-size:12px;padding:12px 20px;border-radius:var(--radius);opacity:0;transform:translateY(8px);transition:all 0.3s ease;pointer-events:none;z-index:999;}
+.save-toast.show{opacity:1;transform:translateY(0);}
+::-webkit-scrollbar{width:5px;}::-webkit-scrollbar-track{background:var(--bg);}::-webkit-scrollbar-thumb{background:var(--border2);border-radius:3px;}
+
+.analysis-value[contenteditable="true"]{border-bottom:1px dashed var(--border2);padding-bottom:2px;outline:none;}
+.problem-point-body[contenteditable="true"]{border-bottom:1px dashed var(--border2);padding-bottom:2px;outline:none;}
+.diff-badge[contenteditable="true"]{outline:1px dashed var(--border2);}
+</style>
+</head>
+<body>
+<div class="save-toast" id="saveToast">✓ 저장 완료</div>
+<div class="page">
+
+<header class="book-header">
+  <div class="book-label">비문학 LAB · 2028학년도 대학수학능력시험 예시문항</div>
+  <h1 class="book-title">독서 <span>11~27번</span> 완전 해설</h1>
+  <div class="book-sub">디지털 영상과 리얼리즘 · 정보 접근제어 · 표현의 자유와 인격권 · 기회비용과 딜레마</div>
+  <div class="book-meta">
+    <span class="meta-chip">2028 수능 예시문항</span>
+    <span class="meta-chip">독서 11~27번</span>
+    <span class="meta-chip">지문 4개 · 17문항</span>
+    <span class="meta-chip">비문학 LAB</span>
+  </div>
+</header>
+
+<nav class="nav-tabs">
+  <div class="nav-tab active" onclick="switchTab('reading',this)">지문 해설</div>
+  <div class="nav-tab" onclick="switchTab('problems',this)">문제 풀이</div>
+  <span class="lab-badge">비문학 LAB</span>
+</nav>
+<div class="tab-panel active" id="tab-reading">
+
+  <div class="guide-banner"><span>↓</span><span>각 문장을 클릭하면 해설 코멘트가 펼쳐집니다.</span></div>
+  <div class="controls">
+    <button class="ctrl-btn" onclick="toggleAll('sentence-block',true)">전체 펼치기</button>
+    <button class="ctrl-btn" onclick="toggleAll('sentence-block',false)">전체 접기</button>
+    
+    <button class="ctrl-btn" onclick="saveAll(true)">저장</button>
+  </div>
+
+  <!-- ===== 지문 1: 디지털 영상과 리얼리즘 ===== -->
+  <div class="section-divider"><span class="section-label">지문 1 · 11~13번 · 디지털 영상과 리얼리즘</span><span class="section-line"></span></div>
+
+  <div class="analysis-card">
+    <div class="analysis-card-title">지문 구조 분석</div>
+    <div class="analysis-row"><span class="analysis-label">제목</span><span class="analysis-value" data-key="av001">디지털 영상 기술과 리얼리즘</span></div>
+    <div class="analysis-row"><span class="analysis-label">서술 방식</span><span class="analysis-value" data-key="av002"><span class="tag-pill">비교·대조</span><span class="tag-pill">개념 정의</span></span></div>
+    <div class="analysis-row"><span class="analysis-label">글의 구조</span><span class="analysis-value" data-key="av003">필름 영화의 리얼리즘(베르토프·영화-눈) → 디지털 영화의 등장(마노비치·영화-붓·합성 리얼리즘) → 역설적 현상(프린스·지각적 리얼리즘·트루 라이즈)</span></div>
+    <div class="analysis-row"><span class="analysis-label">핵심 구도</span><span class="analysis-value" data-key="av004">필름 영화 = 현실과 연관성 강함(사진적 리얼리즘) vs 디지털 영화 = 현실과 연관성 느슨/없음 → 그럼에도 더 사실적으로 느껴지는 역설(지각적 리얼리즘)</span></div>
+    <div class="analysis-row"><span class="analysis-label">독해 전략</span><span class="analysis-value" data-key="av005">세 학자(베르토프·마노비치·프린스)의 개념을 각각 정확히 구분하는 것이 핵심. 13번에서 감독 A의 인터뷰를 지문 개념에 정확히 대응시켜야 한다.</span></div>
+  </div>
+
+  <div class="para-divider"><span class="para-label">1문단 — 디지털 영상 기술의 등장과 리얼리즘적 믿음의 흔들림</span><span class="para-line"></span></div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">01</span><span class="sentence-text">21세기 들어 보편화된 <span class="keyword">디지털 영상 기술</span>은 영화 미학, 영화 창작 방식, 관객의 영화 체험 등 영화 전반에 걸쳐 큰 변화를 초래했다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r1s01">첫 문장이 지문 전체의 배경을 제시하지. 디지털 영상 기술 = 이 글의 핵심 화제. '영화 전반에 걸쳐 큰 변화'라는 표현이 좀 막연하게 느껴지지 않아? 이 부분이 앞으로 구체화되면 체크해야겠다는 생각을 하고 넘어갔다면 Great!</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">02</span><span class="sentence-text">특히 컴퓨터를 이용해 이미지를 가공하는 '<span class="keyword">디지털 후반작업</span>'이 통상적 제작 과정으로 자리 잡으면서 영화는 현실을 사실적으로 재현하는 <span class="keyword">리얼리즘적 매체</span>라는 오랜 믿음이 흔들리기 시작했다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r1s02">'특히'라는 표현을 활용하여 디지털 영상 기술에서 디지털 후반작업으로 화제를 좁혀 들어가고 있다는 느낌 들어? 디지털 후반작업 = 이미지를 컴퓨터로 가공. 이것이 '리얼리즘적 매체'라는 믿음을 흔들었다는 부분을 읽자마자 앞문장에서 언급된 '영화 전반에 걸쳐 큰 변화'가 조금씩 구체화되고 있다는 생각이 드네.</div></div>
+  </div>
+
+  <div class="para-divider"><span class="para-label">2문단 — 필름 영화의 리얼리즘: ㉠베르토프와 '영화-눈'</span><span class="para-line"></span></div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">03</span><span class="sentence-text">영화는 처음 발명되었을 때부터 놀라운 현실 재현 능력으로 주목받았다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r1s03">'처음 발명되었을 때부터'라는 시간적 표현이 이후 디지털 영화와의 대비를 예고하네!</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">04</span><span class="sentence-text">카메라의 셔터가 작동하면 피사체의 이미지가 필름에 새겨진다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r1s04">그러니까 현실 재현 능력이 있겠구나.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">05</span><span class="sentence-text">필름 표면에 각인된 이미지는 영화가 촬영되는 순간에 영화 속 인물, 사물, 공간이 <span class="keyword">실제로 카메라 앞에 존재했음</span>을 확인해 준다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r1s05">그러니까 현실 재현 능력이 있겠구나.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">06</span><span class="sentence-text">따라서 영화는 하나의 <span class="keyword">기록이자 증언</span>으로 인식되었다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r1s06">놀라운 현실 재현 능력이 있구나.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">07</span><span class="sentence-text">㉠ <span class="keyword">지가 베르토프</span>는 역동적인 현실 세계를 회화나 사진보다 더 사실적으로 재현하는 영화의 리얼리즘적 역량을 '<span class="keyword">영화-눈</span>'이라고 명명했다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r1s07">놀라운 현실 재현 능력을 '영화-눈'이라고 불렀구나.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">08</span><span class="sentence-text">그는 '<span class="keyword">영화-눈</span>'이 인간의 지각을 확장하여 현실에 대한 <span class="keyword">정확하고 총체적인 인식</span>을 제공한다고 생각했다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r1s08">영화가 현실을 재현 하는 것에 그치는 것이 아니라 지각을 확장하고 정확한 인식을 제공하는군.</div></div>
+  </div>
+
+  <div class="para-divider"><span class="para-label">3문단 — 디지털 영화: ㉡마노비치와 '영화-붓'·합성 리얼리즘</span><span class="para-line"></span></div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">09</span><span class="sentence-text">필름 영화와 달리 디지털 영화에서는 현실과 영화 이미지 사이의 연관성이 <span class="keyword">매우 느슨하거나, 아예 존재하지 않는다</span>.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r1s09">핵심 대비 문장. 필름 = 현실과 연관 강함 ↔ 디지털 = 연관성 느슨하거나 없음. 이 문장이 이후 모든 논의의 전제다.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">10</span><span class="sentence-text">디지털 영화에서 이미지는 <span class="keyword">0과 1의 이산적인 전자 정보</span>로 저장되며, 이 정보들은 디지털 후반작업 과정에서 <span class="keyword">변형</span>되기 때문이다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r1s10">0과 1의 정보가 변형 가능하기 때문에 현실과의 연관성이 약하구나.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">11</span><span class="sentence-text">더 나아가 여러 개의 이미지를 합성하거나, 카메라를 사용하지 않고 <span class="keyword">컴퓨터 그래픽만으로</span> 가상의 인물과 공간을 만들어 내는 것도 가능해졌다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r1s11">현실과의 연관성이 약하구나.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">12</span><span class="sentence-text">㉡ <span class="keyword">레프 마노비치</span>는 디지털 기술의 도입으로 인해 '영화-눈'의 시대가 지나가고 '<span class="keyword">영화-붓</span>'의 시대가 열렸다고 주장한다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r1s12">앞에서 나온 학자와 비교할 준비는 되어있겠지? '영화-눈'은 말 그대로 눈처럼 현실 세계를 본다는 느낌이고 '영화-붓'은 말 그대로 붓으로 내 맘대로 그린다는 느낌이 들어. 마음대로 그리니 현실과의 연관성은 약하겠지.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">13</span><span class="sentence-text">그는 현실의 사실적 재현을 넘어 상상의 세계를 그려 내는, 이른바 '<span class="keyword">합성 리얼리즘</span>'의 시대로 진입하면서, 영화는 사진보다 <span class="keyword">회화나 애니메이션에 더 가까워졌다</span>고 말한다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r1s13">앞문장을 읽고 생각했던 것처럼 '그려 내는'이라는 표현이 등장했네. 회화나 애니메이션도 상상의 세계를 그려내는 것이니 결이 당연히 비슷하겠지.</div></div>
+  </div>
+
+  <div class="para-divider"><span class="para-label">4문단 — 역설: ㉢프린스와 '지각적 리얼리즘'·트루 라이즈</span><span class="para-line"></span></div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">14</span><span class="sentence-text">그런데 변형되고 가공된 디지털 이미지가 오히려 영화의 <span class="keyword">사실적인 느낌을 강화하는 역설적인 현상</span>이 발생하기도 한다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r1s14">앞에서 언급된 두가지 시선과는 다른 시선이 등장했네! 역시나 비교하면서 읽을 준비!</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">15</span><span class="sentence-text">㉢ <span class="keyword">스티븐 프린스</span>는 컴퓨터 그래픽으로 가공된 이미지를 관객이 사실적이라고 인식하는 '<span class="keyword">트루 라이즈</span>', 즉 '<span class="keyword">진짜 거짓말</span>' 현상을 '<span class="keyword">지각적 리얼리즘</span>'이라고 정의한다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r1s15">프린스의 핵심 개념: <strong>지각적 리얼리즘 = 트루 라이즈(진짜 거짓말)</strong>. 가공된 이미지를 관객이 사실적이라고 인식하는 현상.&nbsp;</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">16</span><span class="sentence-text">그는 영화가 보여 주는 대상이 현실에 존재한다는 믿음에 기반한 '<span class="keyword">사진적 리얼리즘</span>'은 더 이상 유효하지 않으며, 컴퓨터 그래픽을 통해 인위적으로 변형된 이미지에서 더 강한 사실감을 느끼는 <span class="keyword">관객의 심리</span>에 대해 주목해야 한다고 주장한다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r1s16">프린스의 핵심 주장: 사진적 리얼리즘(현실 기반) 대신 관객의 심리(지각적 리얼리즘)에 주목. 베르토프는 속상하겠다.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">17</span><span class="sentence-text">디지털 영화에서 관객이 보는 것은 <span class="keyword">0과 1로 이루어진 정보가 아니라</span>, 지각 가능한 형태로 전환되어 스크린에 투사된 이미지이다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r1s17">'A 가 아니라 B' 워낙 자주 등장하는 구조지! &nbsp;그냥 B 라고만 써도 되지만 굳이굳이 앞에 'A 가 아니라'를 붙이는 이유는? 문제에 내고 싶으니까! 11번 선지 ⑤를 직접 반박하는 문장. 관객이 보는 것 = 0과 1의 정보 자체가 아니라 지각 가능한 형태로 전환된 이미지. 선지 ⑤('이미지는 0과 1의 정보로 투사되며 관객은 이 정보를 인지 가능한 형태로 전환하여 받아들인다')가 틀린 이유.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">18</span><span class="sentence-text">따라서 필름 영화의 이미지와는 <span class="keyword">다른 관점</span>에서 디지털 이미지의 실재성 문제를 고찰할 필요가 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r1s18">지문의 결론. 디지털 이미지는 필름 영화의 기준(사진적 리얼리즘)이 아닌 다른 관점(지각적 리얼리즘)으로 봐야 한다.</div></div>
+  </div>
+
+  <!-- ===== 지문 2: 정보 접근제어 ===== -->
+  <div class="section-divider"><span class="section-label">지문 2 · 14~17번 · 정보 접근제어</span><span class="section-line"></span></div>
+
+  <div class="analysis-card">
+    <div class="analysis-card-title">지문 구조 분석</div>
+    <div class="analysis-row"><span class="analysis-label">제목</span><span class="analysis-value" data-key="av006">정보 시스템 접근제어</span></div>
+    <div class="analysis-row"><span class="analysis-label">서술 방식</span><span class="analysis-value" data-key="av007"><span class="tag-pill">개념 정의</span><span class="tag-pill">분류</span></span></div>
+    <div class="analysis-row"><span class="analysis-label">글의 구조</span><span class="analysis-value" data-key="av008">접근·객체·주체·접근제어 정의 → 보안등급·접근제어행렬·접근제어목록 → ㉠임의적 접근제어 vs ㉡강제적 접근제어 → ㉮벨라파둘라 모델(기밀 유출 방지) vs 비바 모델(신뢰도 유지)</span></div>
+    <div class="analysis-row"><span class="analysis-label">독해 전략</span><span class="analysis-value" data-key="av009">벨라파둘라·비바 모델의 읽기/쓰기 권한 규칙을 표로 정리하는 것이 핵심. 17번 보기 문제에서 비바 모델 규칙을 정확히 적용해야 한다.</span></div>
+  </div>
+
+  <div class="para-divider"><span class="para-label">1문단 — 기본 개념: 접근, 객체, 주체, 접근제어</span><span class="para-line"></span></div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">19</span><span class="sentence-text">정보 시스템에 대한 '<span class="keyword">접근</span>'이란 시스템 자원을 사용하기 위해 시스템과 상호 작용하는 작업을 의미한다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r2s01">접근의 정의: 시스템 자원을 사용하기 위한 상호 작용. 정의가 등장하면 항상 1) 박스 치고 2) 세번 읽고 3) 키워드.<div>접근은 상호작용이야.</div></div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">20</span><span class="sentence-text">이때 정보의 '<span class="keyword">객체</span>'는 접근의 대상이 되는 시스템 또는 시스템 자원을, 정보의 '<span class="keyword">주체</span>'는 접근을 통해 특정 목적을 달성하고자 하는 사람 또는 프로그램 등을 의미한다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r2s02">여기서도 정의가 나왔네! 객체는 '접근' '되는' 주체는 '접근' '하는'</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">21</span><span class="sentence-text">'<span class="keyword">접근제어</span>'는 적절한 권한을 가진 정보 주체만이 정보 객체에 접근할 수 있도록 통제하는 기술이다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r2s03">1문단은 정의만 나열하다 끝나네. 접근제어의 키워드는? 적절한 권한, 통제 이정도!</div></div>
+  </div>
+
+  <div class="para-divider"><span class="para-label">2문단 — 보안등급, 접근제어행렬, 접근제어목록</span><span class="para-line"></span></div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">22</span><span class="sentence-text">접근제어에서는 <span class="keyword">보안등급</span>에 따라 접근 권한이 관리되는데, 이때 '보안등급'은 정보 주체와 객체에 부여된 <span class="keyword">중요도 또는 신뢰도</span>를 나타낸다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r2s04">보안등급 = 중요도 또는 신뢰도.&nbsp;</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">23</span><span class="sentence-text">인터넷 카페에서 등급에 따라 읽기 또는 쓰기 권한을 주는 것은 이러한 예에 해당한다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r2s05">'이러한' 지시어가 나왔네. 지시어가 나오면 지시하는 대상이 무엇인지 항상 확인해야지! 여기서 이러한은 보안등급일까 아니면 접근제어일까? 인터넷 카페 등급이 앞에서 언급된 보안등급과 연결되고 읽기 또는 쓰기 권한이 앞에서 언급된 접근 권한과 연결되니까 접근제어의 예시라고 보는게 맞겠지! 이해를 돕는 구체적 사례가 제시되면 우리가 할 건?<div>1) 무엇에 관한 예시인지 파악하고 2) 연결하고</div></div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">24</span><span class="sentence-text">'<span class="keyword">접근제어행렬</span>'은 정보 주체를 행으로, 정보 객체를 열로 구성한 테이블로서, 객체에 대한 주체의 접근 권한은 해당 주체의 행과 해당 객체의 열이 만나는 셀에 기록된다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r2s06">접근제어행렬: 주체=행, 객체=열, 권한=셀. 정의가 나오면 쉬워도 박스치고 세번 읽고 키워드!</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">25</span><span class="sentence-text">'<span class="keyword">접근제어목록</span>'은 특정 객체에 대한 접근 권한을 갖는 주체가 나열된 목록이다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r2s07">접근제어목록: 특정 객체를 기준으로 접근 가능한 주체 목록. 14번 선지 ⑤('특정 정보 주체가 접근할 수 있는 정보 객체를 목록화')는 반대야 — 목록화 기준이 주체가 아닌 객체지. 정의가 나오면 쉬워도 박스치고 세번 읽고 키워드!&nbsp;<div>쉬운 정의라고 만만히 넘어갔다가는 14번 선지 ⑤ 같은 친구들 만났을 때 당황하게 될 거야.</div></div></div>
+  </div>
+
+  <div class="para-divider"><span class="para-label">3문단 — ㉠임의적 접근제어 vs ㉡강제적 접근제어</span><span class="para-line"></span></div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">26</span><span class="sentence-text">접근제어에는 임의적 접근제어, 강제적 접근제어 등이 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r2s08">한 범주에서 두가지로 쪼개지면? 의식적으로 이항대립 할 준비해야지. 공통점 차이점 찾아서 비교해야겠다. 임의적, 강제적이라는 단어에서 이미 어느정도 느낌이 오긴 하지만 말이야.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">27</span><span class="sentence-text">㉠ '<span class="keyword">임의적 접근제어</span>'에서는 정보 객체의 <span class="keyword">소유자</span>가 해당 객체에 대한 보안등급을 부여한다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r2s09">임의적 접근제어의 핵심: 객체의 소유자가 보안등급 부여. 소유자가 마음대로 부여하니까 임의적이라는 말을 썼구나.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">28</span><span class="sentence-text">또한 객체에 대한 주체의 접근 권한 역시 해당 정보 객체의 <span class="keyword">소유자가 결정</span>한다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r2s10">임의적 접근제어: 접근 권한도 소유자가 결정. 소유자에게 모든 권한이 집중되어있어.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">29</span><span class="sentence-text">따라서 임의적 접근제어에서 접근 권한을 표현할 때는 <span class="keyword">접근제어목록</span>이 주로 사용된다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r2s11">사실 앞문장에서 '객체에 대한 주체의 접근 권한'을 보자마자 접근제어목록이 떠올랐다면 좋았겠지만 앞문장에서 떠올리지 못했다면 이 문장을 읽고서라도 '아 접근제어목록이 주로 사용되겠구나!' 하고 생각해야해.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">30</span><span class="sentence-text">임의적 접근제어는 구현이 쉽고 권한 관리가 <span class="keyword">유연</span>한 방식이지만, 정보 객체의 소유자가 접근 권한을 임의로 변경할 수 있어서 <span class="keyword">접근 권한의 일률적 통제가 어렵다</span>는 문제가 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r2s12">소유자 마음대로 하니까 당연히 유연하고 통제가 어렵겠지. 통제가 어렵다는 문제점이 등장했으니 해결책도 나오지 않을까?</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">31</span><span class="sentence-text">㉡ '<span class="keyword">강제적 접근제어</span>'에서는 보안등급 부여와 접근 권한의 관리가 <span class="keyword">중앙화된 방식</span>으로 수행된다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r2s13">당연히 임의적 접근제어와 비교하면서 읽을 준비는 되어있겠지? 임의적 접근제어는 보안등급 부여와 접근 권한 관리 전부 소유자 마음대로 했는데 강제적 접근제어는 둘 다 중앙화된 방식으로 수행하네. 중앙화된 방식으로 수행하면 앞문장에서 언급된 통제가 어렵다는 문제가 해결되겠네!</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">32</span><span class="sentence-text">따라서 접근 권한을 <span class="keyword">일률적으로 통제</span>할 수 있다는 장점이 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r2s14">이 문장 없어도 이 생각 할 수 있는 거 맞지?</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">33</span><span class="sentence-text">강제적 접근제어에는 벨라파둘라 모델과 비바 모델 등이 있는데, ㉮ <span class="keyword">벨라파둘라 모델</span>은 <span class="keyword">기밀 정보의 유출 방지</span>에 적합하고, <span class="keyword">비바 모델</span>은 <span class="keyword">정보의 신뢰도 유지</span>에 적합하다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r2s15">마찬가지로 한 범주 안에서 두가지로 쪼개졌으니까 마음속으로 비교 할 준비는 해야하겠지? 벨라파둘라 모델은 기밀 정보의 유출 방지에 적합하고 비바 모델은 정보의 신뢰도 유지에 적합하구나.</div></div>
+  </div>
+
+  <div class="para-divider"><span class="para-label">4문단 — 벨라파둘라 모델과 비바 모델: 읽기/쓰기 규칙</span><span class="para-line"></span></div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">34</span><span class="sentence-text">정보 객체가 문서이고 정보 주체가 객체에 대한 읽기와 쓰기 권한을 갖는다고 가정했을 때, <span class="keyword">벨라파둘라 모델</span>에서 정보 주체는 자신보다 <span class="keyword">높은 등급의 문서를 읽는 것이 금지</span>되지만, 등급이 같거나 낮은 문서에 대해서는 읽는 것이 가능하다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r2s16">벨라파둘라 읽기 규칙: 자신보다 높은 등급 문서 읽기 ❌ / 같거나 낮은 등급 읽기 ✅. 기밀 정보가 낮은 등급 주체에게 노출되지 않으니 앞 문장에서 얘기한대로 기밀 정보의 유출 방지에 적합하겠구나!</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">35</span><span class="sentence-text">또한 정보 주체는 자신보다 <span class="keyword">낮은 등급의 문서에 쓰는 것은 금지</span>되지만, 등급이 같거나 높은 문서에 쓰는 것은 허용된다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r2s17">벨라파둘라 쓰기 규칙: 자신보다 낮은 등급 문서에 쓰기 ❌ / 같거나 높은 등급에 쓰기 ✅. 높은 등급의 문서를 읽는 것이 금지 된다는 것이나 낮은 등급의 문서에 쓰는 것이 금지된다는 &nbsp;것이나 결국 같은 걸 막으려는 거라는 생각 들어? 내가 3급인데 1급 기밀 문서를 읽을 수 있는거나, 내가 1급 기밀을 알고 있는데 3급 문서에 그 기밀을 유출하는 거나&nbsp;<div>결과적으로는 같으니까! 조금 어려운 생각일 수도 있지만 천천히 생각해봐.</div></div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">36</span><span class="sentence-text"><span class="keyword">비바 모델</span>에서 정보 주체는 자신보다 <span class="keyword">높은 등급의 문서에 대해서는 쓰기 권한이 없지만</span>, 등급이 같거나 낮은 문서에 대해서는 쓰기가 가능하다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r2s18">비바 쓰기 규칙: 자신보다 높은 등급에 쓰기 ❌ / 같거나 낮은 등급에 쓰기 ✅. 벨라파둘라와 반대.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">37</span><span class="sentence-text">또한 정보 주체는 자신보다 <span class="keyword">낮은 등급의 문서에 대해서는 읽기 권한이 없지만</span>, 등급이 같거나 높은 문서를 읽는 것이 허용된다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r2s19">비바 읽기 규칙: 자신보다 낮은 등급 문서 읽기 ❌ / 같거나 높은 등급 읽기 ✅. 벨라파둘라 읽기 규칙과 반대.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">38</span><span class="sentence-text">정보 주체는 자신보다 낮은 등급의 문서에 포함된 <span class="keyword">신뢰도가 낮은 정보를 참조</span>함으로써 자신이 보유한 정보의 <span class="keyword">신뢰도를 떨어뜨릴 수 있는데</span>, 비바 모델에서는 이를 방지할 수 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r2s20">낮은 등급 문서를 읽으면 자신의 정보 신뢰도가 낮아질 수 있는데 비바 모델에서는 그걸 방지하니까 33번 문장에서 언급한 것처럼 비바 모델이 신뢰도 유지에 적합하겠구나!</div></div>
+  </div>
+
+  <!-- ===== 지문 3: 표현의 자유와 인격권 ===== -->
+  <div class="section-divider"><span class="section-label">지문 3 · 18~23번 · 표현의 자유와 인격권</span><span class="section-line"></span></div>
+
+  <div class="analysis-card">
+    <div class="analysis-card-title">지문 구조 분석</div>
+    <div class="analysis-row"><span class="analysis-label">제목</span><span class="analysis-value" data-key="av010">(가) 표현의 자유 / (나) 인격권 침해와 구제 방법</span></div>
+    <div class="analysis-row"><span class="analysis-label">서술 방식</span><span class="analysis-value" data-key="av011"><span class="tag-pill">분류</span><span class="tag-pill">원리 적용</span></span></div>
+    <div class="analysis-row"><span class="analysis-label">글의 구조</span><span class="analysis-value" data-key="av012">(가) 사전억제 금지원칙·과잉금지원칙 → 표현 규제 방식 변화·익명 표현 확대·명예훼손 책임 완화 / (나) 삭제 요청·기사삭제청구권·정정·반론·추후보도 청구권·방영금지가처분</span></div>
+    <div class="analysis-row"><span class="analysis-label">독해 전략</span><span class="analysis-value" data-key="av013">21번에서 ㉠(과잉금지원칙)으로 ㉡(방영금지가처분)을 비판하는 구조 파악. 과잉금지원칙의 4요소(목적의 정당성·수단의 적절성·침해의 최소성·법익의 균형성)를 각 선지에 정확히 적용해야 한다.</span></div>
+  </div>
+
+  <div class="para-divider"><span class="para-label">(가) 1문단 — 표현의 자유와 두 원칙</span><span class="para-line"></span></div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">39</span><span class="sentence-text">표현의 자유는 개인의 인격 발현과 민주주의의 유지 발전을 위해 필수적이다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s01">표현의 자유의 중요성 제시. 19번 선지 ②('개인의 명예 보호와 민주주의 발전')는 틀렸다 — '개인의 인격 발현'이 맞는 표현.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">40</span><span class="sentence-text">표현의 자유가 보장되지 않으면 다양한 사상과 의견이 공론의 장에 진입하지 못한다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s02">표현의 자유가 필요한 이유 보강.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">41</span><span class="sentence-text">표현의 자유가 보장되기 위해서는 ㉠ '<span class="keyword">사전억제의 금지원칙</span>'과 '<span class="keyword">과잉금지원칙</span>'의 적용이 필요하다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s03">두 원칙 제시. ㉠이 두 원칙 모두를 지칭한다는 것을 파악해야 21번 문제를 풀 수 있다.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">42</span><span class="sentence-text"><span class="keyword">사전억제의 금지원칙</span>은 표현하려는 내용을 사전에 심사하여 억제해서는 안 된다는 것이다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s04">사전억제 금지원칙: 사전 심사·억제 금지. 21번 선지 ①('행정 기관이 주체가 되어 심사하는 것이 아니므로 사전억제의 금지원칙에 위반되지 않는다')의 판단 근거.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">43</span><span class="sentence-text"><span class="keyword">과잉금지원칙</span>이란, 기본권을 제한하는 법률은 '<span class="keyword">목적의 정당성</span>', '<span class="keyword">수단의 적절성</span>', '<span class="keyword">침해의 최소성</span>' 그리고 '<span class="keyword">법익의 균형성</span>'을 모두 충족해야 한다는 것이다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s05">과잉금지원칙의 4요소. 21번 전체가 이 4요소를 방영금지가처분에 적용하는 문제다. 반드시 암기.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">44</span><span class="sentence-text">이들 원칙은 표현의 자유의 본질을 침해하는 것을 막는 데 기여한다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s06">두 원칙의 역할 정리.</div></div>
+  </div>
+
+  <div class="para-divider"><span class="para-label">(가) 2문단 — 표현 규제 방식의 변화: 사전심의제 → 사후심의</span><span class="para-line"></span></div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">45</span><span class="sentence-text">이러한 원칙을 반영하여 표현의 자유를 제한하는 방식, 범위, 대상에 의미 있는 변화가 있었다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s07">이하 세 단락에서 방식·범위·대상의 변화를 각각 설명한다는 것을 예고.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">46</span><span class="sentence-text">우선 표현을 규제하는 <span class="keyword">방식</span>이 변했다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s08">첫 번째 변화: 규제 방식.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">47</span><span class="sentence-text">헌법재판소는 방송 광고 등 상업적 표현물과 일반 영상물에 대한 <span class="keyword">사전심의제도</span>가 행정 기관이 주체가 되어 운영된다는 점에서, 우리 헌법이 금지하는 <span class="keyword">검열</span>에 해당한다고 결정했다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s09">사전심의제도 = 검열로 판단. 이유: 행정 기관이 주체. 19번 선지 ⑤('행정 기관이 주체가 되어 진행되었기 때문')의 근거.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">48</span><span class="sentence-text">이들 영역의 심의는 법적인 <span class="keyword">사후심의</span>나 자율적인 사전심의로 대체되었다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s10">사전심의제 → 사후심의 또는 자율적 사전심의로 대체. 19번 선지 ①('상업적 광고에 대한 심의는 사후에만 허용된다')은 틀렸다 — 자율적 사전심의도 가능하다.</div></div>
+  </div>
+
+  <div class="para-divider"><span class="para-label">(가) 3문단 — 익명 표현 범위의 확대: 본인확인제 위헌</span><span class="para-line"></span></div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">49</span><span class="sentence-text">또한 익명 표현의 <span class="keyword">범위</span>가 확대되었다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s11">두 번째 변화: 익명 표현 범위 확대.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">50</span><span class="sentence-text">인터넷 게시판에 글을 쓰려는 사람들이 사전에 요구받았던 <span class="keyword">본인확인제</span>를 헌법재판소는 <span class="keyword">위헌</span>으로 결정했다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s12">본인확인제 = 위헌. 이하에서 과잉금지원칙 4요소로 판단 과정을 설명한다.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">51</span><span class="sentence-text">헌법재판소는 인터넷에서 건전한 정보의 유통을 추구하려는 이 제도가 가진 <span class="keyword">목적의 정당성</span>을 인정하였다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s13">본인확인제 판단: 목적의 정당성 ✅ 인정.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">52</span><span class="sentence-text">또 본인 확인이 목적 달성에 기여한다는 점에서 <span class="keyword">수단의 적절성</span>도 인정하였다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s14">본인확인제 판단: 수단의 적절성 ✅ 인정.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">53</span><span class="sentence-text">그러나 본인확인제는 익명 표현의 장점까지 포괄적으로 제한하므로 <span class="keyword">침해의 최소성</span>은 인정하지 않았다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s15">본인확인제 판단: 침해의 최소성 ❌ 불인정. 익명 표현의 장점까지 포괄적으로 제한하기 때문.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">54</span><span class="sentence-text">또한 표현의 자유를 제한하여 얻는 이익에 비해 달성되는 공익이 크지 않다는 점에서 <span class="keyword">법익의 균형성</span>도 인정하지 않았다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s16">본인확인제 판단: 법익의 균형성 ❌ 불인정. 결론: 4요소 중 2개 불인정 → 위헌.</div></div>
+  </div>
+
+  <div class="para-divider"><span class="para-label">(가) 4문단 — 명예훼손 책임 완화: 공적 인물·공적 사안의 법리</span><span class="para-line"></span></div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">55</span><span class="sentence-text">또 일부 <span class="keyword">대상</span>에 대한 명예훼손 책임이 완화되었다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s17">세 번째 변화: 대상에 따른 명예훼손 책임 완화.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">56</span><span class="sentence-text">2002년 대법원은 '<span class="keyword">공적 인물·공적 사안의 법리</span>'를 도입했다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s18">2002년 대법원의 법리 도입. 이하에서 내용 설명.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">57</span><span class="sentence-text">공적 인물이나 공적 사안에 대한 언론 보도와 사적 인물이나 사적 사안에 대한 언론 보도의 <span class="keyword">명예훼손 책임을 달리 취급</span>해야 한다는 것이다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s19">공적 vs 사적의 구분이 핵심.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">58</span><span class="sentence-text">후자(사적 인물·사적 사안)의 경우 <span class="keyword">인격권의 보호</span>가 우선할 수 있으나, 전자(공적 인물·공적 사안)의 경우 언론 보도의 <span class="keyword">법적 책임이 완화</span>되어야 한다는 이 법리는 법원의 명예훼손 재판 기준으로 유지되고 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s20">사적 = 인격권 우선 / 공적 = 언론 책임 완화. 19번 선지 ③('공적 인물에 대한 인격권과 표현의 자유가 대립할 때는 표현의 자유를 우위에 둔다')의 근거.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">59</span><span class="sentence-text">법원은 공직자나 정치인 등의 도덕성이나 업무 처리에 대한 비판적 보도로 인해 생길 수 있는 언론의 법적 책임을 완화하고 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s21">공직자·정치인의 도덕성·업무 처리 = 비판적 보도에 대한 언론 책임 완화.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">60</span><span class="sentence-text">공론의 장에 나선 공적 인물의 명예나 초상권 등의 인격권은 표현의 자유를 위해 한발 물러서야 한다는 것이다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s22">공적 인물 = 인격권이 표현의 자유에 양보해야 한다는 원칙.</div></div>
+  </div>
+
+  <div class="para-divider"><span class="para-label">(나) 1문단 — 디지털 공간의 인격권 침해와 게시물 삭제</span><span class="para-line"></span></div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">61</span><span class="sentence-text">디지털 공간에서는 개인의 인격권을 침해하는 정보가 쉽게 확산된다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s23">(나)의 배경 제시. (가)의 표현의 자유 논의와 대비되는 인격권 보호 측면.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">62</span><span class="sentence-text">자신의 인격권을 침해하는 정보가 인터넷에서 공유되고, 그 내용이 언론을 통해 공론화되고 있는 상황을 가정해 보자.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s23b">구체적 상황 설정. '인터넷 공유 → 언론 공론화'라는 두 단계 경로를 제시하면서, 이하에서 각 단계별 구제 방법을 안내한다.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">63</span><span class="sentence-text">어떻게 대응할 수 있을까?</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s23c">수사 의문문. (나) 전체의 핵심 질문을 던지며 이하 내용을 예고한다.</div></div>
+  </div>
+
+  <div class="para-divider"><span class="para-label">(나) 2문단 — 게시물·기사 삭제 청구</span><span class="para-line"></span></div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">64</span><span class="sentence-text">개인의 사생활을 침해하거나 명예를 훼손하는 정보는 법적 절차를 통해 삭제가 가능하다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s24">인격권 침해 정보 = 법적 절차로 삭제 가능. 이하에서 구체적 방법들을 설명한다.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">65</span><span class="sentence-text">일반 이용자가 작성한 게시물이나 댓글의 경우, '<span class="keyword">정보통신망법</span>'에 의거 정보통신서비스 제공자에게 피해 사실을 소명하고, 삭제를 요청할 수 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s25">게시물·댓글 삭제 방법: 정보통신망법 → 서비스 제공자에게 소명 후 삭제 요청.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">66</span><span class="sentence-text">삭제 요청을 받은 서비스 제공자는 해당 게시물을 지체 없이 삭제해야 한다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s26">서비스 제공자의 의무: 지체 없이 삭제.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">67</span><span class="sentence-text">만약 언론의 보도 기사에 의해 인격권이 침해되고 있다면, 법원 혹은 언론중재위원회를 통한 <span class="keyword">기사삭제청구권</span>의 행사를 고려해 볼 수 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s27">언론 보도 기사 → 기사삭제청구권. 20번 선지 ①('법률에 규정된 기사삭제청구권을 사용할 수 있다')은 틀렸다 — '법률에 규정은 없지만 판례를 통해 인정'된다.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">68</span><span class="sentence-text">기사삭제청구권은 <span class="keyword">법률에 규정은 없지만</span>, 법원은 그 기사가 허위이며 중대하고 현저한 침해가 계속되는 경우 기사 삭제의 청구를 판례를 통해 인정하고 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s28">기사삭제청구권의 핵심: 법률 규정 없음 + 판례로 인정. 요건: ①기사가 허위 ②중대하고 현저한 침해 계속.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">69</span><span class="sentence-text">이때 기사의 <span class="keyword">허위성은 피해자가 입증</span>해야 한다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s29">입증 책임 = 피해자. 20번 선지 ⑤의 근거.</div></div>
+  </div>
+
+  <div class="para-divider"><span class="para-label">(나) 2문단 — 정정·반론·추후보도청구권</span><span class="para-line"></span></div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">70</span><span class="sentence-text">언론의 보도 기사에 대해서는 언론사, 언론중재위원회 또는 법원에 <span class="keyword">정정보도</span>나 <span class="keyword">반론보도</span>, <span class="keyword">추후보도</span>를 청구할 수도 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s30">세 가지 청구권 제시. 이하에서 각각 정의한다.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">71</span><span class="sentence-text">'언론중재법'은 언론 보도가 <span class="keyword">진실하지 않을 때</span> 진실에 부합하게 고쳐 달라고 요구할 수 있는 <span class="keyword">정정보도청구권</span>을 규정하고 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s31">정정보도청구권: 보도가 진실하지 않을 때, 진실에 부합하게 고쳐달라고 요구. 20번 선지 ②의 근거.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">72</span><span class="sentence-text">언론 보도의 <span class="keyword">진실 여부와 관계없이</span> 그에 대립되는 반박적 주장을 보도해 달라고 요구하는 <span class="keyword">반론보도청구권</span>을 규정하고 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s32">반론보도청구권: 진실 여부 무관하게 반박 주장 요구 가능. 정정보도와의 차이를 구분해야 한다.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">73</span><span class="sentence-text">또 범죄 혐의가 있다거나 형사상의 조치를 받았다고 언론이 보도했으나 <span class="keyword">무죄 확정판결 또는 혐의없음으로 사건이 종결</span>되었을 때 이를 보도해 달라고 요구할 수 있는 <span class="keyword">추후보도청구권</span>을 규정하고 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s33">추후보도청구권: 무죄·혐의없음으로 종결됐을 때 그 사실을 보도해달라고 요구. 23번 선지 ②의 근거.</div></div>
+  </div>
+
+  <div class="para-divider"><span class="para-label">(나) 3문단 — 방영금지가처분과 ㉡</span><span class="para-line"></span></div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">74</span><span class="sentence-text">자신에 대한 허위 정보가 시사 보도 프로그램을 통해 방송될 예정이라면, 법원에 <span class="keyword">방영금지가처분</span>을 신청해 그 내용이 방송되지 않도록 할 수도 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s34">방영금지가처분: 방송 전에 금지 신청. 사전 억제의 일종.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">75</span><span class="sentence-text">방송될 내용이 <span class="keyword">진실이 아니고</span> 피해자에게 <span class="keyword">회복하기 어려운 중대하고 현저한 손해</span>를 입힐 수 있는 경우 법원의 판단하에 방영금지가처분 신청이 인용될 수 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="command-body" data-key="r3s35">방영금지가처분 요건: ①진실 아님 ②회복하기 어려운 중대하고 현저한 손해. 23번 선지 ⑤의 판단 근거.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">76</span><span class="sentence-text">㉡ <span class="keyword">방영금지가처분제도</span>가 위헌이라는 주장이 있지만 헌법재판소는 방영금지가처분이 <span class="keyword">과잉금지원칙에 위배되지 않는다</span>고 판단했다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s36">헌법재판소의 판단: 방영금지가처분 = 과잉금지원칙 위배 안 됨. 21번은 반대로 '㉠으로 ㉡을 비판'하는 내용을 묻는다.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">77</span><span class="sentence-text">또한 검열에 해당한다는 점도 부인했다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r3s37">방영금지가처분 = 검열 해당 ❌. 21번 선지 ①('행정 기관이 주체가 되어 심사하는 것이 아니므로 사전억제의 금지원칙에 위반되지 않는다')의 근거.</div></div>
+  </div>
+
+  
+  <!-- ===== 지문 4: 기회비용·딜레마·논증문 ===== -->
+  <div class="section-divider"><span class="section-label">지문 4 · 24~27번 · 기회비용과 딜레마</span><span class="section-line"></span></div>
+
+  <div class="analysis-card">
+    <div class="analysis-card-title">지문 구조 분석</div>
+    <div class="analysis-row"><span class="analysis-label">구성</span><span class="analysis-value" data-key="av014">(가) 기회비용·매몰비용 / (나) 딜레마에서의 의사결정 / (다) 논증하는 글 초고</span></div>
+    <div class="analysis-row"><span class="analysis-label">서술 방식</span><span class="analysis-value" data-key="av015"><span class="tag-pill">개념 정의</span><span class="tag-pill">논증 구조 분석</span></span></div>
+    <div class="analysis-row"><span class="analysis-label">글의 구조</span><span class="analysis-value" data-key="av016">(가) 합리적 선택 → 기회비용 정의·구성·예시 → 매몰비용 / (나) 딜레마 정의 → 딜레마와 구별되는 상황 → 딜레마의 함의 / (다) 하수처리시설 유치 찬성 논증 초고</span></div>
+    <div class="analysis-row"><span class="analysis-label">독해 전략</span><span class="analysis-value" data-key="av017">25번: (다)가 (가)(나)를 어떻게 활용했는지 파악. 26번: 논증 요소(주장·이유·근거·반론·반박) 적용. 27번: 보기(절차적 합리성)를 (나)의 딜레마와 연결해 [A] 구체화.</span></div>
+  </div>
+
+  <div class="para-divider"><span class="para-label">(가) 1문단 — 합리적 선택과 기회비용</span><span class="para-line"></span></div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">78</span><span class="sentence-text">주어진 자원이 한정적인 상황에서는 <span class="keyword">합리적 선택</span>이 중요하다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s01">(가) 전체의 전제. (다)의 주장이 이 전제를 직접 활용한다.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">79</span><span class="sentence-text">합리적 선택을 위해서는 선택으로 얻게 되는 <span class="keyword">만족</span>과 <span class="keyword">기회비용</span>을 함께 판단해야 한다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s02">합리적 선택의 두 요소: 만족 + 기회비용.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">80</span><span class="sentence-text"><span class="keyword">기회비용</span>은 어떤 선택을 함으로써 <span class="keyword">포기하는 것의 가치</span>가 무엇인지를 따지는 개념이다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s03">기회비용의 정의. 24번 선지 ① 근거.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">81</span><span class="sentence-text">기회비용은 대안을 선택함으로써 <span class="keyword">실제 지출하는 비용</span>과 다른 대안을 선택했다면 얻을 수 있었던 <span class="keyword">가치</span>를 함께 고려하여 구한다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s04">기회비용의 구성: ①실제 지출 비용 + ②포기한 대안의 가치. 25번 선지 ③('얻게 되는 만족과 실제 지출하는 비용으로 구성된다')은 틀렸다.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">82</span><span class="sentence-text">일요일에 도서관에서 책을 읽으려고 했는데, 친구가 공연 관람을 가자고 한다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s05">기회비용을 설명하기 위한 구체적 예시 시작.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">83</span><span class="sentence-text">만약 공연 관람을 선택한다면 공연 관람료가 실제 지출하는 비용이고, 도서관에서 책을 읽는다면 얻을 수 있는 만족이 공연 관람으로 포기한 것의 가치에 해당한다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s06">공연 관람 선택 시 기회비용 = 관람료(실제 지출) + 독서에서 얻을 만족(포기한 가치).</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">84</span><span class="sentence-text">기회비용을 구할 때, 공연 관람료처럼 대안을 선택함으로써 실제 지출하는 비용을 고려하지 못하는 경우가 종종 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s07">흔한 오류: 실제 지출 비용을 기회비용에서 빠뜨리는 경우.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">85</span><span class="sentence-text">하지만 그 비용은 다른 곳에 사용했다면 얻을 수 있는 만족을 포기한 것이기 때문에 기회비용에 포함되어야 한다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s08">실제 지출 비용도 기회비용에 포함되는 이유. 24번 선지 ② 근거.</div></div>
+  </div>
+
+  <div class="para-divider"><span class="para-label">(가) 2문단 — 매몰비용</span><span class="para-line"></span></div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">86</span><span class="sentence-text">합리적 선택을 할 때 고려할 필요가 없는 비용도 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s09">매몰비용 소개 전 복선.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">87</span><span class="sentence-text">바로 <span class="keyword">매몰 비용</span>이다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s09b">매몰비용 제시.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">88</span><span class="sentence-text"><span class="keyword">매몰 비용</span>이란 이미 투입되어 다시 <span class="keyword">회수할 수 없는 비용</span>으로, 의사 결정 시 고려해서는 안 된다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s10">매몰비용 정의. 25번 선지 ①('매몰 비용 산출이 선행되어야 한다')은 틀렸다.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">89</span><span class="sentence-text">가령 공연이 시시하여 관람을 계속할지 말지를 선택하는 경우 관람료가 아까워 계속 관람하는 것은 <span class="keyword">비합리적 선택</span>이다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s11">매몰비용 오류의 예시: 이미 낸 관람료(매몰비용)를 고려해서 계속 관람 = 비합리적.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">90</span><span class="sentence-text">그러므로 되돌릴 수 없는 매몰 비용이 아니라 앞으로의 선택이 가져올 <span class="keyword">기회비용을 산출</span>하는 것이 합리적 선택을 위한 효과적인 전략이다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s12">(가)의 결론: 매몰비용 무시 + 앞으로의 기회비용 산출 = 합리적 선택.</div></div>
+  </div>
+
+  <div class="para-divider"><span class="para-label">(나) — 딜레마에서의 의사결정</span><span class="para-line"></span></div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">91</span><span class="sentence-text">정책 영역에서는 정보가 충분한 경우 대안이 가져올 결과를 서로 <span class="keyword">비교 가능</span>하다고 본다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s13">일반적 전제. 이어지는 '그런데'로 딜레마 상황 제시.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">92</span><span class="sentence-text">그런데 가치가 충돌하는 공공사업의 경우 가치의 우선순위를 정하기 어려운 상황에서 의사 결정이 이루어지는 때가 많다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s14">딜레마 등장 배경: 가치 충돌 → 우선순위 결정 어려움.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">93</span><span class="sentence-text">이러한 현실 정책 상황으로 인해 <span class="keyword">딜레마에서의 의사 결정</span>이 주목받고 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s15">(나)의 핵심 화제 제시.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">94</span><span class="sentence-text">이때 <span class="keyword">딜레마</span>란 '두 개의 배타적 대안이 존재하고, 두 대안이 가져올 결과가 상충적이며, 각 대안을 지지하는 행위자들이 서로 대립하고 있지만, <span class="keyword">주어진 시간 내에 결정을 내려야 하는 문제 상황</span>'으로 정의할 수 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s16">딜레마의 4요소: ①배타적 대안 두 개 ②결과 상충 ③지지 행위자 대립 ④시간 제한 내 결정. 24번 선지 ③ 근거.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">95</span><span class="sentence-text">한편, 딜레마와 유사해 보이지만 딜레마와는 구별되는 상황이 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s17">딜레마 ≠ 불확실성 ≠ 모호성 구별 논의 시작.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">96</span><span class="sentence-text">정보의 <span class="keyword">불확실성</span>으로 인해 결정이 곤란한 상황이나 정책의 <span class="keyword">모호성</span>으로 인해 결정이 곤란한 상황 등이다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s18">딜레마처럼 보이지만 아닌 두 경우: 불확실성 / 모호성.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">97</span><span class="sentence-text">불확실성은 정보를 추가적으로 탐색하여 해소할 수 있고 모호성은 정책의 의미를 보다 분명하게 제시하여 해소할 수 있기 때문에 이러한 상황들은 딜레마로 보기 어렵다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s19">불확실성·모호성이 딜레마가 아닌 이유: 해소 가능. 딜레마는 해소 불가.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">98</span><span class="sentence-text">딜레마에서의 의사 결정에 관한 논의의 함의는 대안을 평가할 정보를 충분히 갖고 있다고 할지라도 <span class="keyword">대안을 비교하기가 어렵다</span>는 것이다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s20">딜레마의 핵심 함의: 정보가 충분해도 비교 불가. 25번 선지 ⑤ 반박 근거.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">99</span><span class="sentence-text">딜레마에서의 의사 결정에는 <span class="keyword">가치가 개입</span>되고 그 가치들이 서로 충돌하는 상황에서 의사 결정이 이루어질 수밖에 없다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s21">딜레마 = 가치 충돌 상황에서의 불가피한 선택. 27번 선지 ⑤ 근거.</div></div>
+  </div>
+
+  <div class="para-divider"><span class="para-label">(다) — 논증하는 글 초고 (하수처리시설 유치 찬성)</span><span class="para-line"></span></div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">100</span><span class="sentence-text">우리 지역의 ○○ 부지에 하수 처리 시설 유치 여부를 연말까지 결정해야 하는 상황에서 사람들의 찬반 논쟁이 첨예하게 벌어지고 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s22">논증의 배경·맥락 제시.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">101</span><span class="sentence-text">나는 하수 처리 시설을 유치해야 한다고 생각한다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s23">논증의 <strong>주장</strong>. 26번 선지 ① 근거.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">102</span><span class="sentence-text">우리에게 주어진 자원이 한정적인 상황에서 하수 처리 시설을 유치하는 것이 합리적 선택이기 때문이다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s24">논증의 <strong>이유</strong>: 자원 한정 상황에서 합리적 선택. 26번 선지 ②('갈등 해결이 시급하다는 내용을 이유로 제시한다')는 틀렸다.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">103</span><span class="sentence-text">그 근거로 우선 지역 주민 소득 증가 효과를 들 수 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s25">첫 번째 근거 제시.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">104</span><span class="sentence-text">시설을 유치할 경우 시설 구축 비용뿐만 아니라 보조금이 정부에서 지급될 예정이다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s26">보조금 지급 → 지역 경제 활성화 프로그램 시행 가능.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">105</span><span class="sentence-text">이를 활용하여 지역 경제 활성화 프로그램을 시행할 수 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s27">연결 고리.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">106</span><span class="sentence-text">△△기관 연구 보고서에 따르면 지방 자치 단체의 경제 활성화 프로그램이 지역 주민의 소득 증가에 유의미한 영향을 미치는 것으로 조사되었다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s28">논증의 <strong>근거</strong>(객관적 자료): △△기관 연구 보고서. 26번 선지 ③ 근거.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">107</span><span class="sentence-text">또한, 지역민의 정서적 만족도를 높일 수 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s29">두 번째 근거.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">108</span><span class="sentence-text">지하에 구축될 하수 처리 시설의 지상에는 공원이 들어설 예정이다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s30">공원 조성 → 정서적 만족도 상승의 전제.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">109</span><span class="sentence-text">도시 계획 전문가 이□□에 따르면 여가와 휴식 공간이 있는 곳에 거주하는 지역민은 그렇지 않은 지역민보다 정서적 만족도가 1.5배가량 높다고 한다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s31">두 번째 근거(객관적 자료): 전문가 발언.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">110</span><span class="sentence-text">물론, 이에 대해 해당 부지의 환경적 가치가 중요하다며 하수 처리 시설 유치를 반대할 수도 있다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s32">논증의 <strong>예상 반론</strong>: 환경적 가치. 26번 선지 ④ 근거.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">111</span><span class="sentence-text">하지만 현재 산출한 기회비용은 해당 부지의 환경적 가치는 물론, 부지의 다른 가치도 모두 포함한 것이다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s33">논증의 <strong>반박</strong>: 기회비용에 환경적 가치 포함. 26번 선지 ⑤ 근거. 27번 [A]가 이 부분.</div></div>
+  </div>
+
+  <div class="sentence-block" onclick="toggle(this)">
+    <div class="sentence-trigger"><span class="sentence-num">112</span><span class="sentence-text">그러므로 현재 우리에게 주어진 조건 속에서는 하수 처리 시설을 유치하는 것이 가장 합리적 선택이다.</span><span class="sentence-arrow">▾</span></div>
+    <div class="comment-panel"><div class="comment-label">comment</div><div class="comment-body" data-key="r4s34">논증의 결론.</div></div>
+  </div>
+
+  <div class="summary-box">
+    <div class="summary-header"><span class="summary-header-text">✏️ 지문 총평 — 선생님 코멘트</span></div>
+    <div class="summary-body" data-key="summary_4"></div>
+  </div>
+
+
+
+</div><!-- end tab-reading -->
+<div class="tab-panel" id="tab-problems">
+
+  <div class="guide-banner"><span>↓</span><span>각 선지를 클릭하면 해설이 펼쳐집니다.</span></div>
+  <div class="controls">
+    <button class="ctrl-btn" onclick="toggleAll('choice-block',true)">전체 펼치기</button>
+    <button class="ctrl-btn" onclick="toggleAll('choice-block',false)">전체 접기</button>
+    
+    <button class="ctrl-btn" onclick="saveAll(true)">저장</button>
+  </div>
+
+  <div class="section-divider"><span class="section-label">지문 1 · 11~13번 · 디지털 영상과 리얼리즘</span><span class="section-line"></span></div>
+
+  <div class="problem-header">
+    <div class="problem-header-top"><span class="problem-num-badge">11번</span><span class="problem-title">윗글을 읽고 이해한 내용으로 적절하지 않은 것은?</span></div>
+    <div class="difficulty-row"><span class="diff-badge diff-med" data-key="db001">오답률 중</span></div>
+    <div class="problem-point"><div class="problem-point-label">이 문제가 묻는 것</div><span class="problem-point-body" data-key="pp001">세 학자의 개념(영화-눈·영화-붓·지각적 리얼리즘)과 필름·디지털 영화의 특성을 정확히 파악하고 있는지를 묻는다.</span></div>
+  </div>
+  <div class="problem-group">
+    <div class="answer-banner"><span class="answer-label">정답</span><span class="answer-num">⑤</span><span class="answer-desc">디지털 영화에서 이미지는 0과 1의 정보로 저장되지만, 관객이 보는 것은 지각 가능한 형태로 전환되어 스크린에 투사된 이미지다.</span></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">①</span><span class="choice-text">필름 영화와 디지털 영화는 이미지의 실재성 측면에서 차이가 있다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q11c1">필름 = 피사체가 실제로 존재했음을 확인해줌 / 디지털 = 현실과 연관성 느슨하거나 없음. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">②</span><span class="choice-text">디지털 영화는 영화의 리얼리즘적 속성에 대한 인식의 전환을 초래했다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q11c2">"리얼리즘적 매체라는 오랜 믿음이 흔들리기 시작했다"고 했다. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">③</span><span class="choice-text">'트루 라이즈'는 인위적으로 가공된 디지털 이미지에서 관객이 사실적인 느낌을 받는 현상을 말한다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q11c3">프린스가 정의한 트루 라이즈의 정확한 설명이다. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">④</span><span class="choice-text">영화가 기록이자 증언이라는 주장은 영화의 이미지와 현실 사이에 실제적인 연관성이 존재한다는 의미이다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q11c4">필름 이미지는 피사체가 실제로 카메라 앞에 존재했음을 확인해준다. 적절하다.</div></div></div>
+    <div class="choice-block correct" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">⑤</span><span class="choice-text">디지털 영화에서 이미지는 0과 1의 정보로 투사되며 관객은 이 정보를 인지 가능한 형태로 전환하여 받아들인다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✓ 정답</div><div class="choice-explanation" data-key="q11c5">"관객이 보는 것은 0과 1로 이루어진 정보가 아니라, 지각 가능한 형태로 전환되어 스크린에 투사된 이미지"라고 했다. 0과 1이 투사되는 것이 아니다.</div></div></div>
+  </div>
+  <div class="problem-divider"></div>
+
+  <div class="problem-header">
+    <div class="problem-header-top"><span class="problem-num-badge">12번</span><span class="problem-title">㉠~㉢의 관점에 대해 파악한 내용으로 가장 적절한 것은?</span></div>
+    <div class="difficulty-row"><span class="diff-badge diff-hard" data-key="db002">오답률 높음 ★★★★</span></div>
+    <div class="problem-point"><div class="problem-point-label">이 문제가 묻는 것</div><span class="problem-point-body" data-key="pp002">베르토프(㉠), 마노비치(㉡), 프린스(㉢)의 관점 차이를 정확히 구분한다.</span></div>
+  </div>
+  <div class="problem-group">
+    <div class="answer-banner"><span class="answer-label">정답</span><span class="answer-num">②</span><span class="answer-desc">㉠베르토프 = 영화의 현실 재현 능력 중시 / ㉢프린스 = 관객의 인식(지각적 리얼리즘) 중시.</span></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">①</span><span class="choice-text">㉠은 회화에 대한 영화의 우위를, ㉡은 영화에 대한 회화의 우위를 주장하고 있군.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q12c1">㉡마노비치는 영화가 회화에 가까워졌다고 했지, 회화가 우위라는 것이 아니다.</div></div></div>
+    <div class="choice-block correct" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">②</span><span class="choice-text">㉠은 영화의 현실 재현 능력을, ㉢은 영화를 보는 관객의 인식을 중요하게 생각하겠군.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✓ 정답</div><div class="choice-explanation" data-key="q12c2">㉠베르토프: 영화-눈 = 현실 재현 능력 중시. ㉢프린스: 지각적 리얼리즘 = 관객의 심리·인식 중시. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">③</span><span class="choice-text">㉡은 카메라가 대상을 포착하는 역량을, ㉢은 영화 이미지가 가상의 세계를 구현하는 역량을 중요하게 생각하겠군.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q12c3">㉡은 카메라가 아닌 컴퓨터 그래픽으로 가상 세계 구현을 중시하고, ㉢은 관객의 심리를 중시한다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">④</span><span class="choice-text">㉠과 ㉢은 모두 영화에서 '지각적 리얼리즘'을 중요하게 생각하겠군.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q12c4">지각적 리얼리즘은 ㉢프린스의 개념이다. ㉠베르토프는 영화-눈(현실 재현)을 중시한다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">⑤</span><span class="choice-text">㉡과 ㉢은 모두 ㉠의 리얼리즘 개념이 디지털 영화의 시대에도 여전히 유효하다고 생각하겠군.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q12c5">㉡은 영화-눈의 시대가 지나갔다고, ㉢은 사진적 리얼리즘이 유효하지 않다고 했다.</div></div></div>
+  </div>
+  <div class="problem-divider"></div>
+
+  <div class="problem-header">
+    <div class="problem-header-top"><span class="problem-num-badge">13번</span><span class="problem-title">윗글과 인터뷰를 바탕으로 ㉮, ㉯에 대한 비평문을 작성한다고 할 때, 떠올린 내용으로 적절하지 않은 것은?</span><span class="problem-type">[3점]</span></div>
+    <div class="difficulty-row"><span class="diff-badge diff-hard" data-key="db003">오답률 최상 ★★★★★</span></div>
+    <div class="problem-point"><div class="problem-point-label">이 문제가 묻는 것</div><span class="problem-point-body" data-key="pp003">감독 A의 발언을 지문 개념에 대응. ㉮=필름 작업 / ㉯=디지털 기술 사용(현실성 목적으로 최소화).</span></div>
+  </div>
+  <div class="interview-box">
+    <div class="interview-box-label">다음은 영화감독 A의 인터뷰이다.</div>
+    기자: 감독님께서는 ㉮이전 영화들에서 필름 작업만을 고집하다가 ㉯이번 작품에는 디지털 기술도 사용하셨는데, 특별한 의도가 있나요?<br><br>
+    A: 제가 디지털 영화에 대해 부정적으로 생각했던 것은 사실입니다. 컴퓨터 그래픽으로 가상 세계를 표현한 영화가 유행하고 있지만, 시각적 쾌감을 제공하는 데 그치고 있다고 생각해요. 저는 제 영화가 언제나 현실과 밀접한 관계를 맺고 있기를 원했고, 삶의 다양한 양상들이 제 영화에 드러나기를 원했습니다. 지금도 같은 생각이에요. 그렇지만 이번에는 역사적 사건의 현실성을 높이는 목적으로만 컴퓨터 그래픽을 최소한도로 사용해 보았습니다. 다행히 많은 관객이 실제 현장에 있는 듯한 느낌을 받았다고 해서 기뻤습니다.
+  </div>
+  <div class="problem-group">
+    <div class="answer-banner"><span class="answer-label">정답</span><span class="answer-num">③</span><span class="answer-desc">A는 현실과 밀접한 관계를 원했다 = 영화-눈 지향. '영화-붓'과 '합성 리얼리즘'을 중시한다고 하면 틀렸다.</span></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">①</span><span class="choice-text">A가 필름 작업을 고집했던 것을 통해 ㉮에 대한 비평에서 A가 영화에서 현실의 역동적 양상을 포착하려고 노력했다는 것을 이야기할 수 있겠군.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q13c1">필름 작업 고집 = 베르토프의 영화-눈(현실의 역동적 양상 포착)과 연결. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">②</span><span class="choice-text">A가 삶의 다양한 양상들이 자신의 영화에 드러나기를 원했다는 것을 통해 ㉮에 대한 비평에서 A가 현실의 총체적 인식을 중요하게 생각하고 있다는 것을 이야기할 수 있겠군.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q13c2">베르토프의 '정확하고 총체적인 인식'과 연결. 적절하다.</div></div></div>
+    <div class="choice-block correct" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">③</span><span class="choice-text">A가 자신의 영화가 현실과 밀접한 관련을 맺고 있기를 바란다는 것을 통해 ㉯에 대한 비평에서 A가 '영화-붓'과 '합성 리얼리즘'을 중시한다는 점을 이야기할 수 있겠군.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✓ 정답</div><div class="choice-explanation" data-key="q13c3">'영화-붓'과 '합성 리얼리즘'은 상상의 세계 구현이다. A는 현실과 밀접한 관계를 원하므로 영화-눈 지향이지 영화-붓이 아니다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">④</span><span class="choice-text">A가 컴퓨터 그래픽을 사용하면서도 최소화하려는 것을 통해 ㉯에 대한 비평에서 A가 '영화-눈'의 가치를 여전히 중요하게 생각하고 있다는 것을 이야기할 수 있겠군.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q13c4">컴퓨터 그래픽 최소화 = 현실 연관성 유지 = 영화-눈 가치 중시. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">⑤</span><span class="choice-text">A가 컴퓨터 그래픽에 대한 관객들의 반응을 긍정적으로 평가하는 것을 통해 ㉯에 대한 비평에서 A가 '지각적 리얼리즘'을 의도하고 연출했다는 것을 이야기할 수 있겠군.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q13c5">관객이 '실제 현장에 있는 듯한 느낌' = 지각적 리얼리즘. 적절하다.</div></div></div>
+  </div>
+  <div class="problem-divider"></div>
+
+  <div class="section-divider"><span class="section-label">지문 2 · 14~17번 · 정보 접근제어</span><span class="section-line"></span></div>
+
+  <div class="problem-header">
+    <div class="problem-header-top"><span class="problem-num-badge">14번</span><span class="problem-title">윗글의 내용과 일치하지 않는 것은?</span></div>
+    <div class="difficulty-row"><span class="diff-badge diff-med" data-key="db004">오답률 중</span></div>
+    <div class="problem-point"><div class="problem-point-label">이 문제가 묻는 것</div><span class="problem-point-body" data-key="pp004">기본 개념(접근·객체·주체·접근제어목록·보안등급)의 정의를 정확히 파악하고 있는지를 묻는다.</span></div>
+  </div>
+  <div class="problem-group">
+    <div class="answer-banner"><span class="answer-label">정답</span><span class="answer-num">⑤</span><span class="answer-desc">접근제어목록은 특정 객체를 기준으로 접근 가능한 주체를 나열한 것이다. 주체 기준이 아니다.</span></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">①</span><span class="choice-text">접근제어행렬은 접근 권한을 나타내는 테이블이다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q14c1">주체를 행, 객체를 열로 구성한 테이블. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">②</span><span class="choice-text">임의적 접근제어의 접근 권한 표현에는 접근제어목록이 주로 사용된다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q14c2">지문에 명시되어 있다. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">③</span><span class="choice-text">접근은 시스템과의 상호 작용을 통해 시스템 자원을 사용하는 것을 목적으로 한다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q14c3">접근의 정의에 부합한다. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">④</span><span class="choice-text">접근제어에서는 정보 주체와 정보 객체에 부여된 중요도나 신뢰도에 따라 접근 권한이 관리된다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q14c4">보안등급 = 중요도 또는 신뢰도. 적절하다.</div></div></div>
+    <div class="choice-block correct" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">⑤</span><span class="choice-text">접근제어목록은 특정 정보 주체가 접근할 수 있는 정보 객체를 목록화하여 관리하기 위해 사용된다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✓ 정답</div><div class="choice-explanation" data-key="q14c5">반대다. 접근제어목록 = 특정 객체를 기준으로 접근 가능한 주체를 나열한 목록.</div></div></div>
+  </div>
+  <div class="problem-divider"></div>
+
+  <div class="problem-header">
+    <div class="problem-header-top"><span class="problem-num-badge">15번</span><span class="problem-title">㉠과 ㉡에 대한 이해로 적절하지 않은 것은?</span></div>
+    <div class="difficulty-row"><span class="diff-badge diff-med" data-key="db005">오답률 중</span></div>
+    <div class="problem-point"><div class="problem-point-label">이 문제가 묻는 것</div><span class="problem-point-body" data-key="pp005">임의적(㉠)과 강제적(㉡) 접근제어의 차이를 정확히 구분한다.</span></div>
+  </div>
+  <div class="problem-group">
+    <div class="answer-banner"><span class="answer-label">정답</span><span class="answer-num">②</span><span class="answer-desc">강제적 접근제어가 '소유자 외의 주체가 객체를 변경하는 것을 방지하기 위한 것'이라는 내용은 지문에 없다.</span></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">①</span><span class="choice-text">㉠과 달리 ㉡은 중앙화된 방식으로 접근 권한을 통제하기 때문에 일률적인 권한 관리가 가능하다는 특징이 있다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q15c1">강제적 = 중앙화 + 일률적 통제. 적절하다.</div></div></div>
+    <div class="choice-block correct" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">②</span><span class="choice-text">㉠과 달리 ㉡은 정보 객체의 소유자 외의 정보 주체가 해당 객체를 변경하는 것을 방지하기 위해 사용되는 방식이다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✓ 정답</div><div class="choice-explanation" data-key="q15c2">지문에 없는 내용이다. 강제적 접근제어의 특징은 중앙화된 일률적 통제이다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">③</span><span class="choice-text">㉡과 달리 ㉠은 정보 객체의 소유자가 접근 권한을 관리하기 때문에 권한 관리가 유연한 방식이다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q15c3">임의적 = 소유자가 관리 = 유연. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">④</span><span class="choice-text">㉠과 ㉡은 모두 권한을 부여하고 관리하기 위해 사용된다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q15c4">두 방식 모두 접근제어 = 권한 부여·관리. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">⑤</span><span class="choice-text">㉠과 ㉡은 모두 접근제어행렬을 이용한 접근 권한 표현이 가능한 방식이다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q15c5">행렬 사용 불가라는 내용이 없다. 적절하다.</div></div></div>
+  </div>
+  <div class="problem-divider"></div>
+
+  <div class="problem-header">
+    <div class="problem-header-top"><span class="problem-num-badge">16번</span><span class="problem-title">㉮의 이유로 가장 적절한 것은?</span></div>
+    <div class="difficulty-row"><span class="diff-badge diff-hard" data-key="db006">오답률 높음 ★★★★</span></div>
+    <div class="problem-point"><div class="problem-point-label">이 문제가 묻는 것</div><span class="problem-point-body" data-key="pp006">벨라파둘라 모델이 기밀 유출 방지에 적합한 이유 = 낮은 등급에 쓰기 금지 규칙에서 찾아야 한다.</span></div>
+  </div>
+  <div class="problem-group">
+    <div class="answer-banner"><span class="answer-label">정답</span><span class="answer-num">③</span><span class="answer-desc">낮은 등급에 쓰기 금지 → 기밀 정보를 낮은 등급 문서에 써서 유출하는 것을 방지.</span></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">①</span><span class="choice-text">정보 객체의 정보가, 같은 등급의 정보 주체로 전달되지 않기 때문이다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q16c1">벨라파둘라에서 같은 등급 간 읽기·쓰기는 허용된다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">②</span><span class="choice-text">정보 주체와 정보 객체의 보안등급이 중앙화된 방식으로 관리되기 때문이다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q16c2">중앙화 관리는 강제적 접근제어 전반의 특성이지, 벨라파둘라만의 이유가 아니다.</div></div></div>
+    <div class="choice-block correct" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">③</span><span class="choice-text">정보 주체가 자신보다 낮은 등급의 정보 객체에 쓰는 것이 금지되기 때문이다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✓ 정답</div><div class="choice-explanation" data-key="q16c3">낮은 등급에 쓰기 금지 → 기밀 정보를 낮은 등급 문서에 기록해서 유출하는 것 방지. 이것이 기밀 유출 방지에 적합한 이유.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">④</span><span class="choice-text">정보 주체가 자신보다 높은 등급의 정보 객체에 쓰는 것이 가능하기 때문이다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q16c4">높은 등급에 쓰기 가능한 것은 규칙이 맞지만, 기밀 유출 방지와 직접 연결되는 이유가 아니다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">⑤</span><span class="choice-text">정보 주체와 정보 객체를 중요도에 따라 분류하고 이를 테이블을 이용해서 관리하기 때문이다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q16c5">강제적 접근제어 전반의 특성이지, 벨라파둘라만의 이유가 아니다.</div></div></div>
+  </div>
+  <div class="problem-divider"></div>
+
+  <div class="problem-header">
+    <div class="problem-header-top"><span class="problem-num-badge">17번</span><span class="problem-title">윗글을 바탕으로 &lt;보기&gt;를 이해한 내용으로 적절하지 않은 것은?</span><span class="problem-type">[3점]</span></div>
+    <div class="difficulty-row"><span class="diff-badge diff-hard" data-key="db007">오답률 최상 ★★★★★</span></div>
+    <div class="problem-point"><div class="problem-point-label">이 문제가 묻는 것</div><span class="problem-point-body" data-key="pp007">비바 모델 규칙: 높은 등급에 쓰기 ❌ / 낮은 등급에 읽기 ❌. 보기의 접근제어행렬에 정확히 적용한다.</span></div>
+  </div>
+  <div class="problem-point" style="font-family:'Noto Sans KR',sans-serif;font-size:14px;margin-top:-8px;">
+    <div class="problem-point-label">&lt; 보 기 &gt; — 비바 모델 접근제어행렬 (r=읽기, w=쓰기)</div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C<br>
+    갑 &nbsp;[ ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rw&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;r<br>
+    을 &nbsp;rw&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;w&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;r<br>
+    병 &nbsp;w&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;w&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rw
+  </div>
+  <div class="problem-group">
+    <div class="answer-banner"><span class="answer-label">정답</span><span class="answer-num">②</span><span class="answer-desc">읽기 권한이 많다 = 자신보다 낮은 등급이 더 많다 = 자신의 등급이 낮다. '읽기 권한이 많으면 등급이 높다'는 것이 틀렸다.</span></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">①</span><span class="choice-text">모든 주체가 B에 대한 쓰기 권한을, C에 대한 읽기 권한을 가지고 있음을 고려할 때, 갑은 A에 대한 읽기 권한을 가지고 있겠군.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q17c1">B에 모두 쓰기 가능 → B는 최고 등급. C에 모두 읽기 가능 → C는 최하 등급. 을이 A에 rw → 을=A 등급. 갑도 같은 등급이면 A 읽기 ✅. 적절하다.</div></div></div>
+    <div class="choice-block correct" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">②</span><span class="choice-text">을은 병에 비해 읽기 권한이 많다는 점을 고려할 때, 보안등급은 을이 병보다 높겠군.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✓ 정답</div><div class="choice-explanation" data-key="q17c2">비바 모델: 읽기 권한이 많다 = 자신보다 낮은 등급이 더 많다 = 자신의 등급이 낮다. 읽기 권한이 많으면 오히려 등급이 낮은 것이다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">③</span><span class="choice-text">을은 A에 대한 읽기 권한과 쓰기 권한을 모두 가지고 있음을 고려할 때, 을과 A의 보안등급은 같겠군.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q17c3">같은 등급에 읽기·쓰기 모두 가능. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">④</span><span class="choice-text">을은 C에 대한 읽기 권한이 있으므로 C보다 보안등급이 낮은 을에게 C의 중요 정보가 유출될 수 있겠군.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q17c4">을이 C를 읽을 수 있다 = C는 을보다 높거나 같은 등급. 신뢰도 낮은 C 정보가 을에게 전달될 수 있다. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">⑤</span><span class="choice-text">병이 A와 B에 대한 읽기 권한이 없는 것은 병이 보유한 정보의 신뢰도 하락을 막기 위한 것이겠군.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q17c5">A·B가 병보다 낮은 등급 → 읽으면 병의 신뢰도 하락 방지. 적절하다.</div></div></div>
+  </div>
+  <div class="problem-divider"></div>
+
+  <div class="section-divider"><span class="section-label">지문 3 · 18~23번 · 표현의 자유와 인격권</span><span class="section-line"></span></div>
+
+  <div class="problem-header">
+    <div class="problem-header-top"><span class="problem-num-badge">18번</span><span class="problem-title">(가), (나)에 대한 설명으로 가장 적절한 것은?</span></div>
+    <div class="difficulty-row"><span class="diff-badge diff-easy" data-key="db008">오답률 낮음</span></div>
+    <div class="problem-point"><div class="problem-point-label">이 문제가 묻는 것</div><span class="problem-point-body" data-key="pp008">(가)=표현의 자유 확장 양상 / (나)=인격권 침해에 대한 구제 방법.</span></div>
+  </div>
+  <div class="problem-group">
+    <div class="answer-banner"><span class="answer-label">정답</span><span class="answer-num">②</span><span class="answer-desc">(가) = 표현의 자유가 확장된 양상 / (나) = 인격권 침해에 대한 구제 방법 소개.</span></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">①</span><span class="choice-text">(가)는 표현의 자유를 보호하는 절차를, (나)는 인격권의 필요성을 설명하고 있다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q18c1">(가)는 확장된 양상, (나)는 구제 방법이다.</div></div></div>
+    <div class="choice-block correct" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">②</span><span class="choice-text">(가)는 표현의 자유가 확장된 양상을, (나)는 인격권 침해에 대한 구제 방법을 소개하고 있다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✓ 정답</div><div class="choice-explanation" data-key="q18c2">적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">③</span><span class="choice-text">(가)는 표현의 자유가 강조된 배경을, (나)는 인격권의 정의에 대한 다양한 시각을 제시하고 있다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q18c3">(나)는 다양한 시각이 아닌 구체적 구제 수단들을 소개한다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">④</span><span class="choice-text">(가)는 표현의 자유에 관한 상반되는 의견을, (나)는 인격권에 관한 절충적인 의견을 제시하고 있다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q18c4">(가)는 상반되는 의견 제시가 아니라 확장 양상 서술이다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">⑤</span><span class="choice-text">(가)와 (나)는 모두 표현의 자유와 관련하여 대립되는 학자들의 이론을 비교하여 설명하고 있다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q18c5">학자들의 이론 비교가 주된 서술 방식이 아니다.</div></div></div>
+  </div>
+  <div class="problem-divider"></div>
+
+  <div class="problem-header">
+    <div class="problem-header-top"><span class="problem-num-badge">19번</span><span class="problem-title">(가)에 대한 이해로 가장 적절한 것은?</span></div>
+    <div class="difficulty-row"><span class="diff-badge diff-med" data-key="db009">오답률 중</span></div>
+    <div class="problem-point"><div class="problem-point-label">이 문제가 묻는 것</div><span class="problem-point-body" data-key="pp009">(가)의 세 가지 변화(규제 방식·익명 표현·명예훼손 책임)를 정확히 이해하고 있는지를 묻는다.</span></div>
+  </div>
+  <div class="problem-group">
+    <div class="answer-banner"><span class="answer-label">정답</span><span class="answer-num">③</span><span class="answer-desc">공론의 장에 나선 공적 인물의 인격권은 표현의 자유를 위해 한발 물러서야 한다고 했다.</span></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">①</span><span class="choice-text">상업적 광고에 대한 심의는 사후에만 허용된다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q19c1">자율적 사전심의도 가능하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">②</span><span class="choice-text">표현의 자유를 보장하는 이유는 개인의 명예 보호와 민주주의 발전을 위해서이다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q19c2">'명예 보호'가 아니라 '인격 발현'이다.</div></div></div>
+    <div class="choice-block correct" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">③</span><span class="choice-text">공적 인물에 대한 인격권과 표현의 자유가 대립할 때는 표현의 자유를 우위에 둔다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✓ 정답</div><div class="choice-explanation" data-key="q19c3">공론의 장에 나선 공적 인물의 인격권은 표현의 자유를 위해 한발 물러서야 한다고 했다. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">④</span><span class="choice-text">공적 사안에 대한 언론의 무분별한 보도를 방지하기 위해 '공적 인물·공적 사안의 법리'가 채택되었다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q19c4">이 법리는 언론의 법적 책임을 완화하기 위한 것이지, 무분별한 보도 방지가 아니다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">⑤</span><span class="choice-text">영상물에 대한 심의가 검열이라고 판단된 것은 심의 시기와 관련 없이 행정 기관이 주체가 되어 진행되었기 때문이다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q19c5">지문은 '사전심의제도'라고 특정했다. '심의 시기와 관련 없이'가 틀렸다.</div></div></div>
+  </div>
+  <div class="problem-divider"></div>
+
+  <div class="problem-header">
+    <div class="problem-header-top"><span class="problem-num-badge">20번</span><span class="problem-title">다음은 학생이 작성한 학습 활동지이다. (나)를 바탕으로 할 때, 적절하지 않은 것은?</span></div>
+    <div class="difficulty-row"><span class="diff-badge diff-med" data-key="db010">오답률 중</span></div>
+    <div class="problem-point"><div class="problem-point-label">이 문제가 묻는 것</div><span class="problem-point-body" data-key="pp010">(나)의 각 구제 수단을 정확히 파악한다. 기사삭제청구권이 '법률에 규정된' 것인지가 핵심 함정.</span></div>
+  </div>
+  <div class="problem-group">
+    <div class="answer-banner"><span class="answer-label">정답</span><span class="answer-num">①</span><span class="answer-desc">기사삭제청구권은 '법률에 규정은 없지만 판례를 통해 인정'된다고 했다.</span></div>
+    <div class="choice-block correct" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">①</span><span class="choice-text">법률에 규정된 기사삭제청구권을 사용할 수 있다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✓ 정답</div><div class="choice-explanation" data-key="q20c1">"법률에 규정은 없지만 판례를 통해 인정"된다고 했다. '법률에 규정된'이 틀렸다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">②</span><span class="choice-text">보도 내용 중 일부가 진실이 아닌 경우 언론중재위원회에 기사의 정정을 청구할 수 있다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q20c2">정정보도청구권: 진실하지 않을 때 고쳐달라고 요구. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">③</span><span class="choice-text">'정보통신망법'에 근거해 삭제를 요청할 수 있다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q20c3">정보통신망법에 의거 삭제 요청 가능. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">④</span><span class="choice-text">인터넷 서비스 제공자에게 피해 사실을 소명하고 댓글의 삭제를 요청할 수 있다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q20c4">서비스 제공자에게 소명 후 삭제 요청. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">⑤</span><span class="choice-text">기사의 허위성 여부는 피해자가 입증해야 한다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q20c5">지문에 명시되어 있다. 적절하다.</div></div></div>
+  </div>
+  <div class="problem-divider"></div>
+
+  <div class="problem-header">
+    <div class="problem-header-top"><span class="problem-num-badge">21번</span><span class="problem-title">㉠을 바탕으로 ㉡을 비판한 내용으로 적절하지 않은 것은?</span></div>
+    <div class="difficulty-row"><span class="diff-badge diff-hard" data-key="db011">오답률 최상 ★★★★★</span></div>
+    <div class="problem-point"><div class="problem-point-label">이 문제가 묻는 것</div><span class="problem-point-body" data-key="pp011">과잉금지원칙(㉠) 4요소로 방영금지가처분(㉡)을 비판. 선지 ⑤의 논리 오류(비판 내용과 결론이 반대)를 잡아야 한다.</span></div>
+  </div>
+  <div class="problem-group">
+    <div class="answer-banner"><span class="answer-label">정답</span><span class="answer-num">⑤</span><span class="answer-desc">'표현의 자유를 제한함으로써 발생하는 불이익이 더 크다'면 법익의 균형성을 충족하지 '못한다'. 그런데 선지는 '충족한다'고 결론 내렸다.</span></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">①</span><span class="choice-text">행정 기관이 주체가 되어 심사하는 것이 아니므로 '사전억제의 금지원칙'에 위반되지 않는다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q21c1">방영금지가처분은 법원이 주체이므로 행정 기관 주체인 검열과 다르다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">②</span><span class="choice-text">방송으로 인해 훼손된 인격은 다시 회복되기 어려우므로 이를 예방한다는 '목적의 정당성'이 인정된다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q21c2">목적의 정당성이 인정된다는 것은 방영금지가처분을 지지하는 논리다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">③</span><span class="choice-text">인격권을 손상할 것이 명백한 방송이라면, 이를 사전에 금지하는 것이 불가피하므로 '수단의 적절성'이 인정된다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q21c3">수단의 적절성이 인정된다는 것도 방영금지가처분 지지 논리다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">④</span><span class="choice-text">현저하게 피해가 예상되는 경우에만 제한적으로 허용한다는 점에서 '침해의 최소성'이 인정된다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q21c4">침해의 최소성이 인정된다는 것도 방영금지가처분 지지 논리다.</div></div></div>
+    <div class="choice-block correct" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">⑤</span><span class="choice-text">허위 사실의 방송을 금지함으로써 얻는 이익보다, 표현의 자유를 제한함으로써 발생하는 불이익이 크다는 면에서 '법익의 균형성'을 충족한다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✓ 정답</div><div class="choice-explanation" data-key="q21c5">불이익이 더 크다면 법익의 균형성을 충족하지 '못한다'. '충족한다'고 결론 내린 것이 논리 오류다.</div></div></div>
+  </div>
+  <div class="problem-divider"></div>
+
+  <div class="problem-header">
+    <div class="problem-header-top"><span class="problem-num-badge">22번</span><span class="problem-title">ⓐ~ⓔ의 문맥상 의미를 파악한 것으로 적절하지 않은 것은?</span></div>
+    <div class="difficulty-row"><span class="diff-badge diff-easy" data-key="db012">오답률 낮음</span></div>
+    <div class="problem-point"><div class="problem-point-label">이 문제가 묻는 것</div><span class="problem-point-body" data-key="pp012">어휘의 문맥상 의미 파악. ⓑ '지체 없이'의 의미가 핵심 함정.</span></div>
+  </div>
+  <div class="problem-group">
+    <div class="answer-banner"><span class="answer-label">정답</span><span class="answer-num">②</span><span class="answer-desc">'지체 없이' = '미루지 않고 즉시'. '충분히 검토하여 착오가 없이'가 아니다.</span></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">①</span><span class="choice-text">ⓐ : 근거를 갖추어 피해 사실을 '밝혀 설명하고'라는 의미이다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q22c1">소명(疏明) = 근거를 갖추어 밝혀 설명함. 적절하다.</div></div></div>
+    <div class="choice-block correct" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">②</span><span class="choice-text">ⓑ : 게시물을 충분히 검토하여 '착오가 없이'라는 의미이다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✓ 정답</div><div class="choice-explanation" data-key="q22c2">지체(遲滯) 없이 = 미루거나 늦추지 않고 즉시. '착오가 없이'가 아니다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">③</span><span class="choice-text">ⓒ : 피해 사실이 '분명하게 드러나 있는'이라는 의미이다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q22c3">현저(顯著)한 = 두드러지게 분명한. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">④</span><span class="choice-text">ⓓ : 신청이 '인정되고 받아들여질'이라는 의미이다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q22c4">인용(引用)될 = 청구가 받아들여질. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">⑤</span><span class="choice-text">ⓔ : 검열이라는 주장을 '받아들이지 않았다'라는 의미이다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q22c5">부인(否認) = 인정하지 않음. 적절하다.</div></div></div>
+  </div>
+  <div class="problem-divider"></div>
+
+  <div class="problem-header">
+    <div class="problem-header-top"><span class="problem-num-badge">23번</span><span class="problem-title">(가)와 (나)를 참고하여 &lt;보기&gt;를 이해한 내용으로 적절하지 않은 것은?</span><span class="problem-type">[3점]</span></div>
+    <div class="difficulty-row"><span class="diff-badge diff-hard" data-key="db013">오답률 높음 ★★★★</span></div>
+    <div class="problem-point"><div class="problem-point-label">이 문제가 묻는 것</div><span class="problem-point-body" data-key="pp013">보기의 사례에 (가)(나) 개념 적용. ①이 반론보도청구권의 특성(진실 여부 무관)을 정확히 알고 있는지를 묻는다.</span></div>
+  </div>
+  <div class="problem-point" style="font-family:'Noto Sans KR',sans-serif;font-size:14px;margin-top:-8px;">
+    <div class="problem-point-label">&lt; 보 기 &gt;</div>
+    · '갑' 신문사: 공적 인물 A의 불법 거래로 부당 이익 의혹 기사<br>
+    · 일반인 B: 포털 게시판에 A가 추가로 부당 이익 얻은 적 있다는 글 익명으로 게시<br>
+    · '을' 방송사: A의 부당 이익 수취 의혹 시사 보도 프로그램 1주일 후 방영 예고<br>
+    · A: 방영금지가처분 신청
+  </div>
+  <div class="problem-group">
+    <div class="answer-banner"><span class="answer-label">정답</span><span class="answer-num">①</span><span class="answer-desc">반론보도청구권은 '진실 여부와 관계없이' 반박적 주장을 보도해 달라고 요구할 수 있다. 의혹이 진실이더라도 청구 가능하다.</span></div>
+    <div class="choice-block correct" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">①</span><span class="choice-text">A에 대한 의혹이 진실이라면, A는 '갑' 신문사의 기사를 반박하는 내용을 보도해 달라고 청구할 수 없겠군.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✓ 정답</div><div class="choice-explanation" data-key="q23c1">반론보도청구권은 진실 여부와 관계없이 반박적 주장을 보도해 달라고 요구하는 것이다. 의혹이 진실이더라도 A는 청구할 수 있다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">②</span><span class="choice-text">A의 혐의가 무죄로 종결되고 A의 청구가 있다면, 법원은 '을' 방송사에 해당 사실을 보도하라고 판결하겠군.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q23c2">추후보도청구권: 무죄 확정 + 피해자 청구 → 보도하라고 판결 가능. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">③</span><span class="choice-text">B가 게시한 A에 대한 의혹이 진실이 아니며 A의 삭제 요청이 있었다면, 포털의 서비스 제공자는 게시물을 삭제해야겠군.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q23c3">정보통신망법에 의거 삭제 요청 시 지체 없이 삭제해야 한다. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">④</span><span class="choice-text">A가 명예훼손 책임을 '갑' 신문사에게 묻는다면, 법원은 A가 사적 인물이 아니라는 점을 고려하여 언론의 책임을 완화하겠군.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q23c4">A = 공적 인물 → 언론 법적 책임 완화. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">⑤</span><span class="choice-text">법원이 방영금지가처분 신청을 기각했다면, '을' 방송사가 방송하려는 내용이 진실이거나 A의 인격권을 중대하고 현저하게 침해하지 않는다고 판단했겠군.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q23c5">기각 = 요건 불충족 = 진실이거나 현저한 침해가 없다고 판단. 적절하다.</div></div></div>
+  </div>
+  <div class="problem-divider"></div>
+
+  <div class="section-divider"><span class="section-label">지문 4 · 24~27번 · 기회비용과 딜레마</span><span class="section-line"></span></div>
+
+  <div class="problem-header">
+    <div class="problem-header-top"><span class="problem-num-badge">24번</span><span class="problem-title">다음은 학생이 글을 읽는 과정에서 작성한 질문이다. (가), (나)에서 답을 확인할 수 없는 것은?</span></div>
+    <div class="difficulty-row"><span class="diff-badge diff-easy" data-key="db014">오답률 낮음</span></div>
+    <div class="problem-point"><div class="problem-point-label">이 문제가 묻는 것</div><span class="problem-point-body" data-key="pp014">(가)(나)에서 답이 제시된 질문과 제시되지 않은 질문을 구분한다.</span></div>
+  </div>
+  <div class="problem-group">
+    <div class="answer-banner"><span class="answer-label">정답</span><span class="answer-num">⑤</span><span class="answer-desc">(나)는 딜레마에서 대안 비교가 어렵다는 것만 밝혔을 뿐, 어떻게 평가해야 하는지 구체적인 방법은 제시하지 않는다.</span></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">①</span><span class="choice-text">의사 결정 상황에서 기회비용이란 무엇일까?</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q24c1">(가)에서 기회비용 = '포기하는 것의 가치'라고 정의했다. 답 확인 가능.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">②</span><span class="choice-text">대안을 선택함으로써 실제 지출하는 비용이 기회비용에 포함되는 이유는 무엇일까?</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q24c2">(가)에서 '다른 곳에 사용했다면 얻을 수 있는 만족을 포기한 것이기 때문'이라고 했다. 답 확인 가능.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">③</span><span class="choice-text">정책 의사 결정 과정에서의 딜레마란 무엇일까?</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q24c3">(나)에서 딜레마를 4요소로 정의했다. 답 확인 가능.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">④</span><span class="choice-text">딜레마와 유사하지만 딜레마가 아닌 상황과 딜레마의 차이는 무엇일까?</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q24c4">(나)에서 불확실성·모호성은 해소 가능하므로 딜레마가 아니라고 설명했다. 답 확인 가능.</div></div></div>
+    <div class="choice-block correct" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">⑤</span><span class="choice-text">대안을 선택하기 어려운 상황에서 대안을 평가하는 방법은 무엇일까?</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✓ 정답</div><div class="choice-explanation" data-key="q24c5">(나)는 딜레마에서 대안 비교가 어렵다는 함의만 제시했을 뿐 구체적 평가 방법은 제시하지 않는다.</div></div></div>
+  </div>
+  <div class="problem-divider"></div>
+
+  <div class="problem-header">
+    <div class="problem-header-top"><span class="problem-num-badge">25번</span><span class="problem-title">(다)를 작성하기 위해 (가), (나)를 읽은 방법으로 가장 적절한 것은?</span></div>
+    <div class="difficulty-row"><span class="diff-badge diff-med" data-key="db015">오답률 중</span></div>
+    <div class="problem-point"><div class="problem-point-label">이 문제가 묻는 것</div><span class="problem-point-body" data-key="pp015">(다)가 (가)(나)의 어떤 내용을 어떻게 활용했는지를 파악한다.</span></div>
+  </div>
+  <div class="problem-group">
+    <div class="answer-banner"><span class="answer-label">정답</span><span class="answer-num">②</span><span class="answer-desc">(가)의 기회비용 개념(포기한 대안의 가치 포함) → (다)의 반박('기회비용에 환경적 가치 포함')에 활용.</span></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">①</span><span class="choice-text">(가)에서 매몰 비용의 개념에 주목하고, 의사 결정 시 매몰 비용 산출이 선행되어야 한다는 것을 확인하며 읽었다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q25c1">매몰비용은 고려해서는 '안 된다'고 했다. (다)에서도 매몰비용을 직접 활용하지 않았다.</div></div></div>
+    <div class="choice-block correct" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">②</span><span class="choice-text">(가)에서 기회비용의 중요성에 주목하고, 선택하지 않은 대안의 가치도 고려해야 합리적 선택이 가능하다는 것을 확인하며 읽었다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✓ 정답</div><div class="choice-explanation" data-key="q25c2">(다)의 반박 = '기회비용에 환경적 가치 포함'. (가)의 기회비용(포기한 대안의 가치 포함) 개념을 활용했다. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">③</span><span class="choice-text">(가)에서 기회비용의 효용성에 주목하고, 기회비용이 대안을 선택함으로써 얻게 되는 만족과 실제 지출하는 비용으로 구성된다는 것을 확인하며 읽었다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q25c3">기회비용 = '실제 지출 비용 + 포기한 가치'이지, '얻게 되는 만족 + 실제 지출 비용'이 아니다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">④</span><span class="choice-text">(나)에서 딜레마에서의 선택에 가치가 개입된다는 점에 주목하고, 가치의 우선순위를 확정하는 것이 필요하다는 점을 확인하며 읽었다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q25c4">(나)는 가치 우선순위 확정이 '어렵다'고 했다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">⑤</span><span class="choice-text">(나)에서 딜레마에서의 선택에 정보가 영향을 미친다는 점에 주목하고, 정보가 충분할수록 의사 결정이 수월할 수 있다는 점을 확인하며 읽었다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q25c5">(나)는 '정보가 충분해도 비교 어렵다'고 했다.</div></div></div>
+  </div>
+  <div class="problem-divider"></div>
+
+  <div class="problem-header">
+    <div class="problem-header-top"><span class="problem-num-badge">26번</span><span class="problem-title">&lt;보기&gt;를 참고할 때, (다)를 작성하기 위해 세운 글쓰기 계획으로 적절하지 않은 것은?</span></div>
+    <div class="difficulty-row"><span class="diff-badge diff-med" data-key="db016">오답률 중</span></div>
+    <div class="problem-point"><div class="problem-point-label">이 문제가 묻는 것</div><span class="problem-point-body" data-key="pp016">논증 요소(주장·이유·근거·예상 반론·반박)를 (다)에 정확히 대응시킨다. (다)의 '이유'가 무엇인지가 핵심 함정.</span></div>
+  </div>
+  <div class="problem-point" style="font-family:'Noto Sans KR',sans-serif;font-size:14px;margin-top:-8px;">
+    <div class="problem-point-label">&lt; 보 기 &gt; — 논증 요소</div>
+    · <strong>주장</strong>: 자신의 입장<br>
+    · <strong>이유</strong>: 주장을 하는 주관적 생각<br>
+    · <strong>근거</strong>: 주장·이유를 뒷받침하는 객관적 자료<br>
+    · <strong>예상 반론</strong> + <strong>반박</strong>
+  </div>
+  <div class="problem-group">
+    <div class="answer-banner"><span class="answer-label">정답</span><span class="answer-num">②</span><span class="answer-desc">(다)의 이유 = '자원이 한정적인 상황에서 합리적 선택이기 때문'. '갈등 해결이 시급하다'는 이유로 제시되지 않았다.</span></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">①</span><span class="choice-text">하수 처리 시설 유치 쟁점에서 찬성 입장을 주장으로 제시한다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q26c1">주장 = '하수 처리 시설을 유치해야 한다'. 적절하다.</div></div></div>
+    <div class="choice-block correct" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">②</span><span class="choice-text">자원이 한정적인 상황에서 발생한 논쟁이 첨예하여 갈등 해결이 시급하다는 내용을 이유로 제시한다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✓ 정답</div><div class="choice-explanation" data-key="q26c2">(다)의 이유 = '합리적 선택이기 때문'. '갈등 해결이 시급하다'는 (다)에 이유로 제시되지 않았다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">③</span><span class="choice-text">지역 경제 활성화 프로그램 시행으로 주민 소득이 증가한다는 연구 보고서 내용을 근거로 제시한다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q26c3">△△기관 연구 보고서 = 객관적 자료 = 근거. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">④</span><span class="choice-text">해당 부지의 환경적 가치가 중요하다는 내용을 예상 반론으로 제시한다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q26c4">예상 반론: 환경적 가치. 적절하다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">④</span><span class="choice-text">고려할 수 있는 해당 부지의 모든 가치를 기회비용에 포함하였다는 내용을 반박으로 제시한다.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q26c5">반박: 기회비용에 환경적 가치 포함. 적절하다.</div></div></div>
+  </div>
+  <div class="problem-divider"></div>
+
+  <div class="problem-header">
+    <div class="problem-header-top"><span class="problem-num-badge">27번</span><span class="problem-title">&lt;보기&gt;를 (가), (나)와 연결 지어 (다)의 [A]를 구체화하는 방안으로 가장 적절한 것은?</span><span class="problem-type">[3점]</span></div>
+    <div class="difficulty-row"><span class="diff-badge diff-hard" data-key="db017">오답률 최상 ★★★★★</span></div>
+    <div class="problem-point"><div class="problem-point-label">이 문제가 묻는 것</div><span class="problem-point-body" data-key="pp017">[A]는 예상 반론+반박 부분. 보기(절차적 합리성)를 (나)(딜레마)와 연결해 반박을 구체화한다.</span></div>
+  </div>
+  <div class="problem-point" style="font-family:'Noto Sans KR',sans-serif;font-size:14px;margin-top:-8px;">
+    <div class="problem-point-label">&lt; 보 기 &gt; — 절차적 합리성</div>
+    정보나 지식이 충분해도 대안을 비교하기 어려운 경우가 있다.<br>
+    → <strong>절차적 합리성</strong>: 내용적으로 판단하기 어려울 때, 일정한 형식적 절차를 거쳐서 나온 결과는 내용적으로도 합리적인 것으로 간주할 수 있다.<br>
+    — ◇◇학회 논문 자료
+  </div>
+  <div class="problem-group">
+    <div class="answer-banner"><span class="answer-label">정답</span><span class="answer-num">⑤</span><span class="answer-desc">보기를 (나)와 연결: 가치 충돌 상황(딜레마)에서 의사결정이 요구됨을 제시하고, 현재 산출한 기회비용이 절차적 합리성을 확보하고 있다는 내용으로 반박 구체화.</span></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">①</span><span class="choice-text">&lt;보기&gt;를 (가)와 연결 지어, 대안의 가치를 비교하여 합리적 선택이 가능함을 제시하고 절차적 합리성을 확보하면 대안의 대립이 해소될 수 있다는 내용으로 예상 반론을 구체화해야겠어.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q27c1">[A]는 반박을 구체화해야 한다. 예상 반론이 아니다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">②</span><span class="choice-text">&lt;보기&gt;를 (가)와 연결 지어, 정보가 충분하면 대안의 가치를 정확히 측정할 수 있음을 제시하고 형식적 절차를 위해 추가 정보가 필요하다는 내용으로 반박을 구체화해야겠어.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q27c2">정보가 충분해도 비교 어렵다는 것이 (나)의 핵심인데, '정보가 충분하면 측정 가능'이라고 했다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">③</span><span class="choice-text">&lt;보기&gt;를 (나)와 연결 지어, 배타적 대안이 상충된 결과를 초래할 수 있음을 제시하고 형식적 절차를 거치더라도 기회비용 산출이 어렵다는 내용으로 예상 반론을 구체화해야겠어.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q27c3">예상 반론이 아닌 반박을 구체화해야 하고, '기회비용 산출이 어렵다'는 반박 약화다.</div></div></div>
+    <div class="choice-block wrong" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">④</span><span class="choice-text">&lt;보기&gt;를 (나)와 연결 지어, 딜레마에서 가치를 정확히 산출하는 것이 필수적임을 제시하고 형식적 절차에 따라 만족의 크기를 비교해야 한다는 내용으로 예상 반론을 구체화해야겠어.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✗ 오답</div><div class="choice-explanation" data-key="q27c4">딜레마에서 정확한 산출이 '어렵다'는 것이 요점이고, 예상 반론이 아닌 반박을 구체화해야 한다.</div></div></div>
+    <div class="choice-block correct" onclick="toggleChoice(this)"><div class="choice-trigger"><span class="choice-num">⑤</span><span class="choice-text">&lt;보기&gt;를 (나)와 연결 지어, 가치 충돌 상황에서 의사 결정이 요구됨을 제시하고 현재 산출한 기회비용이 절차적 합리성을 확보하고 있다는 내용으로 반박을 구체화해야겠어.</span><span class="choice-arrow">▾</span></div><div class="choice-panel"><div class="choice-verdict">✓ 정답</div><div class="choice-explanation" data-key="q27c5">(나): 찬반 갈등 = 가치 충돌 딜레마. 보기: 절차적 합리성이 대응책. 기회비용 산출이 절차적 합리성을 확보했다는 반박. 적절하다.</div></div></div>
+  </div>
+
+</div><!-- end tab-problems -->
+
+<script>
+function switchTab(id,el){document.querySelectorAll('.tab-panel').forEach(p=>p.classList.remove('active'));document.querySelectorAll('.nav-tab').forEach(t=>t.classList.remove('active'));document.getElementById('tab-'+id).classList.add('active');el.classList.add('active');}
+function toggle(block){block.classList.toggle('open');}
+function toggleChoice(block){block.classList.toggle('open');if(!block.classList.contains('revealed'))block.classList.add('revealed');const group=block.closest('.problem-group');if(group&&block.classList.contains('correct')){const banner=group.querySelector('.answer-banner');if(banner)banner.classList.add('revealed');}}
+function toggleAll(cls,open){document.querySelectorAll('.'+cls).forEach(b=>{if(open)b.classList.add('open');else b.classList.remove('open');});}
+
+
+function saveAll(showToast=false){
+  document.querySelectorAll('[data-key]').forEach(el=>{localStorage.setItem('dokso2028_'+el.dataset.key,el.innerHTML);});
+  if(showToast){const toast=document.getElementById('saveToast');toast.classList.add('show');setTimeout(()=>toast.classList.remove('show'),2000);}
+}
+function loadAll(){document.querySelectorAll('[data-key]').forEach(el=>{const saved=localStorage.getItem('dokso2028_'+el.dataset.key);if(saved)el.innerHTML=saved;});}
+
+
+</script>
+
+
+</body></html>
